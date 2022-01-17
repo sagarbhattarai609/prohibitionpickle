@@ -1,0 +1,436 @@
+body {
+    &.home {
+        .hero-section {
+            .btn-bg-image {
+                a {
+                    background-color: transparent;
+                    background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+                }
+            }
+            .dotted_menu {
+                ul {
+                    &.listing-menu {
+                        width: 50%;
+                        margin: 0 auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        @media screen and(max-width:767px) {
+                            width: 70%;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        li {
+                            &::marker {
+                                color: #e0ae3f;
+                                font-size: 1.2em;
+                            }
+                            a {
+                                color: #e0ae3f;
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 22px;
+                                line-height: 27px;
+                                @media screen and(max-width:767px) {
+                                    font-size: 14px;
+                                    line-height: 17px;
+                                    padding-right: 40px;
+                                }
+                            }
+                            &:first-of-type {
+                                &::marker {
+                                    color: transparent;
+                                    @media screen and(max-width:767px) {
+                                        color: #e0ae3f;
+                                    }
+                                }
+                            }
+                            &:nth-child(3),
+                            &:nth-child(5){
+                                a{
+                                    @media screen and(max-width:767px) {
+                                        padding-right: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &::after {
+                content: "";
+                display: block;
+                background-image: url(https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/hashgacha-1.svg);
+                width: 300px;
+                height: 225px;
+                position: absolute;
+                bottom: 0;
+                background-repeat: no-repeat;
+                right: 0;
+                @media screen and (max-width: 767px) {
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    bottom: 46px;
+                    background-size: contain;
+                    background-position: center;
+                }
+            }
+        }
+        .home-page-featured-slider {
+            .swiper-slide {
+                .swiper-slide-inner {
+                    img {
+                        height: 100%;
+                        object-fit: contain;
+                        filter: grayscale(1);
+                    }
+                }
+            }
+        }
+        .image-hotspots-home {
+            .wrap_svl_center {
+                .wrap_svl {
+                    .images_wrap {
+                        @media screen and(max-width:767px) {
+                            margin-right: -10px;
+                            margin-left: -10px;
+                        }
+                    }
+                    .drag_element {
+                        &.tips {
+                            .point_style {
+                                position: relative;
+                                img {
+                                    opacity: 0;
+                                }
+                                &::after {
+                                    content: "";
+                                    display: block;
+                                    font-family: Inter;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 20px;
+                                    line-height: 24px;
+                                    color: #987b31;
+                                    @media screen and(max-width:767px) {
+                                        font-size: 14px;
+                                        line-height: 17px;
+                                    }
+                                }
+                            }
+                            &#pickles {
+                                .point_style {
+                                    &::after {
+                                        content: "Pickles";
+                                    }
+                                }
+                            }
+                            &#sides {
+                                .point_style {
+                                    &::after {
+                                        content: "Sides";
+                                    }
+                                }
+                            }
+                            &#cured-fish {
+                                .point_style {
+                                    &::after {
+                                        content: "Cured Fish";
+                                        position: relative;
+                                        left: -24px;
+                                        top: -6px;
+                                    }
+                                }
+                            }
+                            &#dry-goods {
+                                .point_style {
+                                    &::after {
+                                        content: "Dry Goods";
+                                    }
+                                }
+                            }
+                            &#specials {
+                                .point_style {
+                                    &::after {
+                                        content: "Specials";
+                                    }
+                                }
+                            }
+                            &#deli {
+                                .point_style {
+                                    &::after {
+                                        content: "Deli";
+                                    }
+                                }
+                            }
+                            &#condiments {
+                                .point_style {
+                                    &::after {
+                                        content: "Condiments";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .menu-section {
+            .heading-has-wings {
+                &::after {
+                    content: "";
+                    display: block;
+                    background-image: url(https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/top-wings.svg);
+                    width: 100%;
+                    height: 180px;
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                    position: absolute;
+                    top: -20px;
+                    @media screen and (max-width: 767px) {
+                        background-position: center;
+                        top: 60px;
+                        background-size: 106%;
+                    }
+                }
+            }
+            .has-wings {
+                .elementor-widget-container {
+                    &::after {
+                        content: "";
+                        background-image: url(https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/bottom-wings.svg);
+                        width: 80%;
+                        height: 180px;
+                        background-repeat: no-repeat;
+                        background-position: bottom center;
+                        display: block;
+                        margin: 0 auto;
+                        @media screen and (max-width: 767px) {
+                            height: 100px;
+                            background-size: 129%;
+                            width: 100%;
+                        }
+                    }
+                    a {
+                        @media screen and (max-width: 767px) {
+                            position: relative;
+                            top: 50px;
+                        }
+                    }
+                }
+            }
+            .menu-inner-section {
+                background: #000;
+                margin-top: 60px;
+                @media screen and (max-width: 767px) {
+                    margin-top: 30px;
+                }
+                .menu-option {
+                    figure {
+                        &.wp-caption {
+                            position: relative;
+                            img {
+                                height: 530px;
+                                object-fit: contain;
+                                @media screen and (max-width: 767px) {
+                                    height: 280px;
+                                }
+                            }
+                            figcaption {
+                                margin: 0;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .making-section {
+            .btn-bg-image {
+                a {
+                    background-color: transparent;
+                    background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+                }
+            }
+        }
+        .testimonial-section {
+            .testimonial-slider {
+                .sp-testimonial-free-section {
+                    @media screen and (max-width: 767px) {
+                        padding: 0 30px !important;
+                    }
+                    .slick-list {
+                        margin-right: 0 !important;
+                    }
+                }
+                .sp-testimonial-free-wrapper {
+                    width: 70%;
+                    margin: 0 auto;
+                    @media screen and (max-width: 767px) {
+                        width: 100%;
+                    }
+                    .sp-testimonial-free-item {
+                        border-radius: 9px;
+                        border: 2px dashed #f2c44e;
+                        background: #171616;
+                        padding: 45px 70px;
+                        @media screen and (max-width: 767px) {
+                            padding: 20px;
+                        }
+                        .sp-testimonial-free {
+                            .tfree-testimonial-title {
+                                h3 {
+                                    color: #fff !important;
+                                    font-family: Inter;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    text-align: left;
+                                }
+                            }
+                            .tfree-client-testimonial {
+                                .tfree-testimonial-content {
+                                    p {
+                                        color: #fff !important;
+                                        text-align: left;
+                                        font-family: "Inter";
+                                        font-style: normal;
+                                        font-weight: normal;
+                                        font-size: 18px;
+                                        line-height: 22px;
+                                        @media screen and (max-width: 767px) {
+                                            font-size: 14px;
+                                            line-height: 17px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .slick-arrow {
+                        i {
+                            color: #f2c44e;
+                        }
+                    }
+                    .slick-dots {
+                        display: none !important;
+                    }
+                }
+            }
+            .btn-bg-image {
+                a {
+                    background-color: transparent;
+                    background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+                }
+            }
+        }
+        .contact-section {
+            .contact-form-container {
+                display: flex;
+                @media screen and (max-width: 767px) {
+                    flex-direction: column;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                .column-first {
+                    width: 30%;
+                    @media screen and (max-width: 767px) {
+                        width: 100%;
+                    }
+                    input[type="text"],
+                    input[type="email"] {
+                        width: 100%;
+                        background: transparent;
+                        border: 0.7px solid #faf2e7;
+                        border-radius: 6px;
+                        margin-bottom: 25px;
+                        padding: 20px 12px;
+                    }
+                }
+                .column-second {
+                    width: 70%;
+                    padding-left: 30px;
+                    @media screen and (max-width: 767px) {
+                        width: 100%;
+                        padding-left: 0;
+                    }
+                    textarea {
+                        width: 100%;
+                        background: transparent;
+                        border: 0.7px solid #faf2e7;
+                        border-radius: 6px;
+                        padding: 20px 12px;
+                        height: 230px;
+                    }
+                    .button-container {
+                        text-align: right;
+                        input[type="submit"] {
+                            background-color: transparent;
+                            background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+                            font-family: Inter;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 22px;
+                            padding: 20px 70px;
+                            margin-right: 0;
+                            margin-left: auto;
+                            display: block;
+                            @media screen and(max-width:767px) {
+                                width: 100%;
+                                margin-top: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            .contact-icon-column {
+                .elementor-widget-wrap {
+                    .elementor-widget-image {
+                        @media (max-width: 767px) {
+                            width: 20%;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        .site-method-section {
+            &::before {
+                @media (max-width: 767px) {
+                    content: "";
+                    display: block;
+                    background-image: url(https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/flower-left.svg);
+                    height: 55%;
+                    width: 80px;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    background-size: contain;
+                    top: 6.5rem;
+                    left: 10px;
+                }
+            }
+            &::after {
+                @media (max-width: 767px) {
+                    content: "";
+                    display: block;
+                    background-image: url(https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/flower-right.svg);
+                    height: 55%;
+                    width: 80px;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    background-size: contain;
+                    top: 6.5rem;
+                    right: 10px;
+                }
+            }
+        }
+    }
+}
