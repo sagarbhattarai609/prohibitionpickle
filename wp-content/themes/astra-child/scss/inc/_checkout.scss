@@ -1,0 +1,9 @@
+body{
+    &.woocommerce-checkout{
+        #content{
+            .ast-container{
+                width: 70%;
+            }
+        }
+    }
+}
