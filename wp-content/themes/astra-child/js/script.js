@@ -1,3 +1,12 @@
 jQuery(document).ready(function ($) {
-    console.log('here');
+    
+    $('.woocommerce-checkout').find('#tgpc_enable_checkout_gift_wrapper').on('change',function(){
+        console.log('abac')
+    })
+
+
+
+
+
+
 })
