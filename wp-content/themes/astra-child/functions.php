@@ -28,13 +28,10 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 
 
 /**
-
 * Add the field to the checkout page
-
 */
 
 add_action( 'woocommerce_after_order_notes', 'tl_some_custom_checkout_field' );
-
 function tl_some_custom_checkout_field( $checkout ) 
 {
 	woocommerce_form_field( 'gift_message', array(
@@ -44,5 +41,17 @@ function tl_some_custom_checkout_field( $checkout )
 		'placeholder'   => __('Notes to appear in your gift...'),
 		'required'     => false,
 	), $checkout->get_value( 'gift_message' ));
-	echo '</div>';
+}
+
+/**
+* Update the order meta with field value
+*/
+
+add_action( 'woocommerce_checkout_update_order_meta', 'tl_some_custom_checkout_field_update_order_meta' );
+
+function tl_some_custom_checkout_field_update_order_meta( $order_id ) {
+
+	if ( ! empty( $_POST['gift_message'] ) ) {
+		update_post_meta( $order_id, 'gift_message', sanitize_text_field( $_POST['gift_message'] ) );
+	}
 }
