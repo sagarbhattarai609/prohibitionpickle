@@ -1,3 +1,3 @@
 jQuery(document).ready(function ($) {
-    // $('img[usemap]').imageMap(500);
+    console.log('here');
 })
