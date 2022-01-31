@@ -37,13 +37,12 @@ add_action( 'woocommerce_after_order_notes', 'tl_some_custom_checkout_field' );
 
 function tl_some_custom_checkout_field( $checkout ) 
 {
-	echo '<div id="some_custom_checkout_field"><h2>' . __('Heading') . '</h2>';
-	woocommerce_form_field( 'some_field_name', array(
-		'type'         => 'text',
-		'class'         => array('my-field-class form-row-wide'),
-		'label'         => __('Additional Field'),
-		'placeholder'   => __('Some hint'),
-		'required'     => true,
-	), $checkout->get_value( 'some_field_name' ));
+	woocommerce_form_field( 'gift_message', array(
+		'type'         => 'textarea',
+		'class'         => array('gift-message form-row-wide'),
+		'label'         => __('Gift Message'),
+		'placeholder'   => __('Notes to appear in your gift...'),
+		'required'     => false,
+	), $checkout->get_value( 'gift_message' ));
 	echo '</div>';
 }
