@@ -55,3 +55,13 @@ function tl_some_custom_checkout_field_update_order_meta( $order_id ) {
 		update_post_meta( $order_id, 'gift_message', sanitize_text_field( $_POST['gift_message'] ) );
 	}
 }
+
+add_action('wp_head','show_smart_offer_on_product_func');
+
+function show_smart_offer_on_product_func()
+{
+	if(is_product())
+	{
+		do_shortcode("[so_show_offers display_as='popup']");
+	}
+}
