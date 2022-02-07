@@ -17,7 +17,7 @@ header.site-header .site-navigation .main-header-menu li a.menu-link {
   color: #faf2e7;
 }
 
-header #ast-mobile-header .ast-primary-header-bar {
+header #ast-mobile-header .ast-primary-header-bar.ast-primary-header {
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
