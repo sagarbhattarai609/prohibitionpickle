@@ -62,6 +62,6 @@ function show_smart_offer_on_product_func()
 {
 	if(is_product())
 	{
-		do_shortcode("[so_show_offers display_as='popup']");
+		echo do_shortcode("[so_show_offers display_as='popup']");
 	}
 }
