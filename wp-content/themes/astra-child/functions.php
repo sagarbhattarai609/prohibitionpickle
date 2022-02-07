@@ -60,13 +60,8 @@ add_action('wp_head','show_smart_offer_on_product_func');
 
 function show_smart_offer_on_product_func()
 {
-	echo "here";
 	if(is_product())
 	{
-		echo "thsi";
-
 		echo do_shortcode("[so_show_offers display_as='popup']");
 	}
-
-	exit;
 }
