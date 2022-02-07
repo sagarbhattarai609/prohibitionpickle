@@ -17,6 +17,14 @@ header.site-header .site-navigation .main-header-menu li a.menu-link {
   color: #faf2e7;
 }
 
+@media (max-width: 767px) {
+  header #ast-mobile-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+}
+
 header #ast-mobile-header .ast-primary-header-bar.ast-primary-header {
   padding-left: 10px !important;
   padding-right: 10px !important;
@@ -46,6 +54,10 @@ header #ast-mobile-header .ast-mobile-header-content .main-header-menu li {
 header #ast-mobile-header .ast-mobile-header-content .main-header-menu li a {
   border: none;
   line-height: 19px;
+}
+
+body.home #content {
+  margin-top: 75px;
 }
 
 body.home .hero-section .btn-bg-image a {

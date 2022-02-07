@@ -1,5 +1,8 @@
 body {
     &.home {
+        #content{
+            margin-top: 75px;
+        }
         .hero-section {
             .btn-bg-image {
                 a {

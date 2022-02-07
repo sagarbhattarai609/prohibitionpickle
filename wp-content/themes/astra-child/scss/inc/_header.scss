@@ -18,6 +18,12 @@ header {
         }
     }
     #ast-mobile-header {
+        @media(max-width:767px)
+        {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
         .ast-primary-header-bar.ast-primary-header{
             padding-left: 10px !important;
             padding-right: 10px !important;
