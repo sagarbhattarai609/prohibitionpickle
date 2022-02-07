@@ -20,6 +20,12 @@ header.site-header .site-navigation .main-header-menu li a.menu-link {
 header #ast-mobile-header .ast-custom-button {
   background-color: transparent;
   background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-position: center;
 }
 
 header #ast-mobile-header .ast-mobile-header-content .main-header-menu {
