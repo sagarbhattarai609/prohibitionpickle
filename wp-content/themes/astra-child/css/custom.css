@@ -56,8 +56,10 @@ header #ast-mobile-header .ast-mobile-header-content .main-header-menu li a {
   line-height: 19px;
 }
 
-body.home #content {
-  margin-top: 75px;
+@media screen and (max-width: 767px) {
+  body.home #content {
+    margin-top: 75px;
+  }
 }
 
 body.home .hero-section .btn-bg-image a {
