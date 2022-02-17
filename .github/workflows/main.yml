@@ -30,6 +30,7 @@ jobs:
           username: ftp@5268cf43cf.nxcli.net
           password: ${{ secrets.password }}
           port: 21
+          server-dir: /
           exclude: |
             **/.git*
             **/.git*/**
