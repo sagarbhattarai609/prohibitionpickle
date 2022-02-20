@@ -19,9 +19,25 @@ Template: astra
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
     margin: 4px;
+<<<<<<< HEAD
 	font-weight: 500;
  }
 
 .ast-single-post .entry-title{
 	color:red !important;
 }
+=======
+}
+a.woocommerce-button.button.ced_my_account_reorder {
+    font-family: "Inter",Sans-serif;
+    background-color: #CEB361;
+    border-radius: 3px 3px 3px 3px;
+    margin: 4px;
+}
+a.woocommerce-button.button.ced_my_account_place_same_order {
+	font-family: "Inter",Sans-serif;
+    background-color: #CEB361;
+    border-radius: 3px 3px 3px 3px;
+    margin: 4px;
+}
+>>>>>>> cdef33f34ca45cd9b6c50292eb6904f359fe9ab4
