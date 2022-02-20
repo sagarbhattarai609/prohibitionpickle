@@ -117,6 +117,6 @@ body.woocommerce .ast-page-builder-template .site-content > .ast-container {
     padding: 0;
 }
 .ast-page-builder-template .site-content > .ast-container {
-    max-width: 70%;
+    max-width: 70% !important;
     padding: 0;
 }
