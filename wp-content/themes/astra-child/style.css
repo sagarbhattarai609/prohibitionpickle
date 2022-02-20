@@ -49,3 +49,6 @@ a.button.ced_my_account_place_same_order {
     margin: 4px;
 	font-weight: 500;
 }
+.woocommerce {
+    font-family: "Inter",Sans-serif;
+}
