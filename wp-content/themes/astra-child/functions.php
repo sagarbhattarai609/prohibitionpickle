@@ -57,12 +57,12 @@ function tl_some_custom_checkout_field_update_order_meta( $order_id ) {
 }
 
 
-add_action( 'woocommerce_before_main_content', 'show_delivery_limitation_func', 10 );
+add_action( 'woocommerce_archive_description', 'show_delivery_limitation_func', 10 );
 
 function show_delivery_limitation_func (){
 	if(is_product_category()){
 		echo "here";
 
-
+	
 	}
 }
