@@ -66,3 +66,7 @@ a.checkout-button.button.alt.wc-forward {
     margin: 4px;
 	font-weight: 500;
 }
+
+.ced_cng_popup-container.ced_cng_no_content {
+	font-family: "Inter",Sans-serif;	
+}
