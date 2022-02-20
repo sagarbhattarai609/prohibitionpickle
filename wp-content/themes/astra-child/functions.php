@@ -61,8 +61,21 @@ add_action( 'woocommerce_archive_description', 'show_delivery_limitation_func', 
 
 function show_delivery_limitation_func (){
 	if(is_product_category()){
-		echo "here";
+		$args = array(
+			'post_type' => 'delivery_limitations',
+			'post_status' => 'publish',
+			'category_name' => 'product_cat',
+			'posts_per_page' => -1,
+		);
+		$query = new WP_Query( $args );
 
-	
+		if ( $query->have_posts() ) :while ( $query->have_posts() ) : $query->the_post();	?>
+			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+				<h1 class="entry-title"><?php the_title(); ?></h1>
+				<div class="content">
+					<?php the_content();?>
+				</div>
+			</article>
+		<?php endwhile; endif;
 	}
-}
+}  
