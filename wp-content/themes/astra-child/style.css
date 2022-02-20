@@ -22,7 +22,12 @@ Template: astra
 
 	font-weight: 500;
  } */
- td.woocommerce-orders-table__cell-order-actions a,a.woocommerce-button.button.view ,a.button.ced_my_account_reorder ,a.button.ced_my_account_place_same_order {
+ td.woocommerce-orders-table__cell-order-actions a,
+ a.woocommerce-button.button.view ,
+ a.button.ced_my_account_reorder ,
+ a.button.ced_my_account_place_same_order,
+ td.actions button.button,
+ a.checkout-button {
 	font-family: "Inter",Sans-serif;
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
@@ -36,24 +41,6 @@ Template: astra
 }
 
 
-.woocommerce {
+.woocommerce ,.ced_cng_popup-container {
     font-family: "Inter",Sans-serif;
-}
-td.actions button.button{
-	font-family: "Inter",Sans-serif;
-    background-color: #CEB361;
-    border-radius: 3px 3px 3px 3px;
-    margin: 4px;
-	font-weight: 500;
-}
-a.checkout-button {
-	font-family: "Inter",Sans-serif;
-    background-color: #CEB361;
-    border-radius: 3px 3px 3px 3px;
-    margin: 4px;
-	font-weight: 500;
-}
-
-.ced_cng_popup-container {
-	font-family: "Inter",Sans-serif;	
 }
