@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.stagepassword }}
           port: 21
           protocol: ftps
-          server-dir: /public_html/prohibitionpickle
+          server-dir: /public_html/prohibitionpickle/
           exclude: |
             **/.git*
             **/.git*/**
