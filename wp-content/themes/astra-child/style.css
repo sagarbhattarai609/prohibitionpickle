@@ -22,20 +22,7 @@ Template: astra
 
 	font-weight: 500;
  } */
- td.woocommerce-orders-table__cell-order-actions a,
- a.woocommerce-button.button.view ,
- a.button.ced_my_account_reorder ,
- a.button.ced_my_account_place_same_order,
- td.actions button.button,
- .wc-proceed-to-checkout a.checkout-button{
-	font-family: "Inter",Sans-serif;
-    background-color: #CEB361;
-    border-radius: 3px 3px 3px 3px;
-    margin: 4px;
-
-	font-weight: 500; 
- }
-
+ 
 .ast-single-post .entry-title{
 	color:red !important;
 }
@@ -60,3 +47,10 @@ body .woocommerce button.button.alt.disabled,
 	
 		font-weight: 500; 
 	   }
+	body .ced_cng_popup-btn{
+		background-color: #CEB361;
+		border-radius: 3px 3px 3px 3px;
+		margin: 4px;
+	
+		font-weight: 500; 
+	}
