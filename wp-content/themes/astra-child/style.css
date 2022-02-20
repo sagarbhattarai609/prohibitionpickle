@@ -22,7 +22,7 @@ Template: astra
 
 	font-weight: 500;
  } */
- 
+ @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
  td.woocommerce-orders-table__cell-order-actions a,
  a.woocommerce-button.button.view ,
  a.button.ced_my_account_reorder ,
