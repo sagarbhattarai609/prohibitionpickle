@@ -15,6 +15,13 @@ Template: astra
 	background-color:black;
 } */
  a.woocommerce-button.button.view {
+	font-family: "Inter",Sans-serif;
+    background-color: #CEB361;
+    border-radius: 3px 3px 3px 3px;
+    margin: 4px;
+}
+a.woocommerce-button.button.ced_my_account_reorder {
+    font-family: "Inter",Sans-serif;
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
     margin: 4px;
