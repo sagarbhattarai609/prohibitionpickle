@@ -125,3 +125,6 @@ body.ast-page-builder-template .site-content > .ast-container {
 	margin-top: 10px;
 }
 }
+body.woocommerce h1.woocommerce-products-header__title {
+    font-family: "Yeseva One", Sans-serif;
+}
