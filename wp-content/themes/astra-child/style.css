@@ -14,7 +14,7 @@ Template: astra
 	border-color:whitesmoke;
 	background-color:black;
 } */
-#post-20 .woocommerce .woocommerce-MyAccount-content a.woocommerce-button.button.view {
+ a.woocommerce-button.button.view {
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
     margin: 4px;
