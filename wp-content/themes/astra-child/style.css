@@ -112,3 +112,7 @@ body.woocommerce ul.products li.product a img {
     margin: 0 0 0em;
     /* box-shadow: none; */
 }
+body.woocommerce .ast-page-builder-template .site-content > .ast-container {
+    max-width: 70%;
+    padding: 0;
+}
