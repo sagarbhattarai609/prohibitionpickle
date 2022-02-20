@@ -37,10 +37,6 @@ Template: astra
 
 	font-weight: 500; 
  }
-.ast-single-post .entry-title{
-	color:red !important;
-}
-
 
 .woocommerce ,.ced_cng_popup-container,.woocommerce-MyAccount-navigation {
     font-family: "Inter",Sans-serif;
