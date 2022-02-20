@@ -52,3 +52,10 @@ a.button.ced_my_account_place_same_order {
 .woocommerce {
     font-family: "Inter",Sans-serif;
 }
+td.actions button.button{
+	font-family: "Inter",Sans-serif;
+    background-color: #CEB361;
+    border-radius: 3px 3px 3px 3px;
+    margin: 4px;
+	font-weight: 500;
+}
