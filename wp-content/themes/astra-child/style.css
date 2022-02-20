@@ -105,3 +105,8 @@ body .wc-block-grid__product-onsale{
 	border-color: #0274be;
 	background-color: #CEB361;		
 }
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+	color: #ffffff;
+	border-color: #0274be;
+	background-color: #CEB361;
+}
