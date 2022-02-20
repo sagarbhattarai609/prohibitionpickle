@@ -122,5 +122,6 @@ body.woocommerce ul.products li.product a img {
 body.ast-page-builder-template .site-content > .ast-container {
     max-width: 1180px;
 	margin-bottom: 36px;
+	margin-top: 10px;
 }
 }
