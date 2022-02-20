@@ -81,13 +81,7 @@ body .woocommerce button.button.alt.disabled,
 		font-weight: 500; 
 	   }
 
-a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
-	background-color: #CEB361;
-		border-radius: 3px 3px 3px 3px;
-		margin: 4px;
-	
-		font-weight: 500; 
-}
+
 body.woocommerce a.button, 
 .woocommerce button.button, 
 .woocommerce .woocommerce-message a.button, 
@@ -110,4 +104,11 @@ body.woocommerce a.button,
 		margin: 4px;
 	
 		font-weight: 500; 
+}
+.woocommerce ul.products li.product a img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 0 0em;
+    /* box-shadow: none; */
 }
