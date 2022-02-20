@@ -44,3 +44,19 @@ Template: astra
 .woocommerce ,.ced_cng_popup-container {
     font-family: "Inter",Sans-serif;
 }
+body .woocommerce a.button,
+body .woocommerce button.button.alt,
+body .woocommerce-page table.cart td.actions .button,
+body .woocommerce-page #content table.cart td.actions .button,
+body .woocommerce a.button.alt,
+body .woocommerce .woocommerce-message a.button,
+body .ast-site-header-cart .widget_shopping_cart .buttons .button.checkout,
+body .woocommerce button.button.alt.disabled,
+	   .wc-block-grid__products .wc-block-grid__product .wp-block-button__link{
+		font-family: "Inter",Sans-serif;
+		background-color: #CEB361;
+		border-radius: 3px 3px 3px 3px;
+		margin: 4px;
+	
+		font-weight: 500; 
+	   }
