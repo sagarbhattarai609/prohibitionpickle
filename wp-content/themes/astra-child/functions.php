@@ -55,3 +55,14 @@ function tl_some_custom_checkout_field_update_order_meta( $order_id ) {
 		update_post_meta( $order_id, 'gift_message', sanitize_text_field( $_POST['gift_message'] ) );
 	}
 }
+
+
+add_action( 'woocommerce_before_main_content', 'show_delivery_limitation_func', 10 );
+
+function show_delivery_limitation_func (){
+	if(is_product_category()){
+		echo "here";
+
+
+	}
+}
