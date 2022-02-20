@@ -134,12 +134,8 @@ body.woocommerce h1.woocommerce-products-header__title ,h1.entry-title {
 body.woocommerce .astra-shop-summary-wrap {
     margin-top: 10px;
 }
-/* @media (min-width: 922px){
-body.woocommerce #content .ast-woocommerce-container div.product div.images,
- body.woocommerce .ast-woocommerce-container div.product div.images, 
- body.woocommerce-page #content .ast-woocommerce-container div.product div.images,
-  body.woocommerce-page .ast-woocommerce-container div.product div.images {
-    width: 44%;
+body.woocommerce .woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images.so_product_image {
+    float: right;
+    /* margin-right: 10%; */
 }
-} */
 
