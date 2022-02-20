@@ -105,7 +105,7 @@ body .wc-block-grid__product-onsale{
 	border-color: #0274be;
 	background-color: #CEB361;		
 }
-a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+ #wpadminbar .hfeed .ast-woocommerce-container .products .ast-col-sm-12 .astra-shop-summary-wrap a.button.product_type_simple.add_to_cart_button {
 	color: #ffffff;
 	border-color: #0274be;
 	background-color: #CEB361;
