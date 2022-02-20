@@ -112,11 +112,14 @@ body.woocommerce ul.products li.product a img {
     margin: 0 0 0em;
     /* box-shadow: none; */
 }
-body.woocommerce .ast-page-builder-template .site-content > .ast-container {
-    max-width: 70%;
-    padding: 0;
-}
-.ast-page-builder-template .site-content > .ast-container {
+
+
+/* .ast-page-builder-template .site-content > .ast-container {
     max-width: 70% !important;
     padding: 0;
+} */
+@media (min-width: 922px){
+body.ast-container {
+    max-width: 1180px;
+}
 }
