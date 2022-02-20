@@ -22,7 +22,7 @@ Template: astra
 
 	font-weight: 500;
  } */
- td.woocommerce-orders-table__cell-order-actions a,a.button.ced_my_account_reorder ,a.button.ced_my_account_place_same_order {
+ td.woocommerce-orders-table__cell-order-actions a,a.woocommerce-button.button.view ,a.button.ced_my_account_reorder ,a.button.ced_my_account_place_same_order {
 	font-family: "Inter",Sans-serif;
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
