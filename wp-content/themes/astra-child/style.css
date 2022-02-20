@@ -40,4 +40,12 @@ a.button.ced_my_account_reorder {
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
     margin: 4px;
+	font-weight: 500;
+}
+a.button.ced_my_account_place_same_order {
+	font-family: "Inter",Sans-serif;
+    background-color: #CEB361;
+    border-radius: 3px 3px 3px 3px;
+    margin: 4px;
+	font-weight: 500;
 }
