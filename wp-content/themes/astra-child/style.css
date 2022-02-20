@@ -135,6 +135,6 @@ body.woocommerce .astra-shop-summary-wrap {
     margin-top: 10px;
 }
 body.single-product .site-main .ast-woocommerce-container .woocommerce-product-gallery{
-	margin-right: 2%;
+	margin-right: 2% !important;
 }
 
