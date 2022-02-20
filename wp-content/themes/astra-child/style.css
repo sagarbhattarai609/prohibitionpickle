@@ -14,24 +14,13 @@ Template: astra
 	border-color:whitesmoke;
 	background-color:black;
 } */
- a.woocommerce-button.button.view {
+ a.woocommerce-button {
 	font-family: "Inter",Sans-serif;
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
     margin: 4px;
-}
-a.woocommerce-button.button.ced_my_account_reorder {
-    font-family: "Inter",Sans-serif;
-    background-color: #CEB361;
-    border-radius: 3px 3px 3px 3px;
-    margin: 4px;
-}
-a.woocommerce-button.button.ced_my_account_place_same_order {
-	font-family: "Inter",Sans-serif;
-    background-color: #CEB361;
-    border-radius: 3px 3px 3px 3px;
-    margin: 4px;
-}
+	font-weight: 500;
+ }
 
 .ast-single-post .entry-title{
 	color:red !important;
