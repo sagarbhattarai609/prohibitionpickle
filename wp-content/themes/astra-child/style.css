@@ -125,9 +125,10 @@ body.ast-page-builder-template .site-content > .ast-container {
 	margin-top: 10px;
 }
 }
-body.woocommerce h1.woocommerce-products-header__title {
+body.woocommerce h1.woocommerce-products-header__title ,h1.entry-title {
     font-family: "Yeseva One", Sans-serif;
 }
 body.woocommerce .astra-shop-summary-wrap {
     margin-top: 10px;
 }
+
