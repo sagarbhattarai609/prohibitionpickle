@@ -41,7 +41,7 @@ Template: astra
 }
 
 
-.woocommerce ,.ced_cng_popup-container {
+.woocommerce ,.ced_cng_popup-container,.woocommerce-MyAccount-navigation {
     font-family: "Inter",Sans-serif;
 }
 body .woocommerce a.button,
@@ -67,3 +67,21 @@ body .woocommerce button.button.alt.disabled,
 	
 		font-weight: 500; 
 	}
+
+	body.woocommerce a.button:hover,
+	 body.woocommerce button.button:hover,
+	 body.woocommerce .woocommerce-message a.button:hover,
+	   .woocommerce #respond input#submit:hover,
+	    .woocommerce #respond input#submit.alt:hover,
+		 .woocommerce a.button.alt:hover,
+		  .woocommerce button.button.alt:hover,
+		   .woocommerce input.button.alt:hover,
+		    .woocommerce input.button:hover,
+			 .woocommerce button.button.alt.disabled:hover,
+			  .wc-block-grid__products .wc-block-grid__product .wp-block-button__link:hover{
+				background-color: #CEB361;
+				border-radius: 3px 3px 3px 3px;
+				margin: 4px;
+			
+				font-weight: 500; 
+			  }
