@@ -22,7 +22,7 @@ Template: astra
 
 	font-weight: 500;
  } */
- td.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions a{
+ td.woocommerce-orders-table__cell a{
 	font-family: "Inter",Sans-serif;
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
