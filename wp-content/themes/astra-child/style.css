@@ -29,7 +29,8 @@ Template: astra
  a.button.ced_my_account_place_same_order,
  td.actions button.button,
  .wc-proceed-to-checkout a.checkout-button,
- button.woocommerce-Button.button{
+ button.woocommerce-Button.button,
+ .ast-col-sm-12 #2240{
 	font-family: "Inter",Sans-serif;
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
