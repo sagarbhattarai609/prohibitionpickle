@@ -19,3 +19,7 @@ Template: astra
     border-radius: 3px 3px 3px 3px;
     margin: 4px;
 }
+
+.ast-single-post .entry-title{
+	color:red !important;
+}
