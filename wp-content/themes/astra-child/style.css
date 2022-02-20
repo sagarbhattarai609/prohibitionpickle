@@ -69,4 +69,40 @@ body .woocommerce button.button.alt.disabled,
 		font-weight: 500; 
 	}
 
+	body.woocommerce a.button,
+	 .woocommerce button.button.alt,
+	 .woocommerce-page table.cart td.actions .button,
+	  .woocommerce-page #content table.cart td.actions .button,
+	   .woocommerce a.button.alt, 
+	   .woocommerce .woocommerce-message a.button,
+	 .ast-site-header-cart .widget_shopping_cart .buttons .button.checkout,
+	  .woocommerce button.button.alt.disabled,
+	   .wc-block-grid__products .wc-block-grid__product .wp-block-button__link{
+		background-color: #CEB361;
+		border-radius: 3px 3px 3px 3px;
+		margin: 4px;
 	
+		font-weight: 500; 
+	   }
+body.woocommerce a.button,
+body.woocommerce button.button,
+body.woocommerce .woocommerce-message a.button,
+body.woocommerce #respond input#submit.alt,
+body.woocommerce a.button.alt,
+body.woocommerce button.button.alt,
+body.woocommerce input.button.alt, 
+body.woocommerce input.button, 
+body.woocommerce input.button:disabled,
+	   .woocommerce input.button:disabled[disabled],
+	    .woocommerce input.button:disabled:hover,
+		 .woocommerce input.button:disabled[disabled]:hover, 
+		 .woocommerce #respond input#submit,
+		  .woocommerce button.button.alt.disabled,
+		   .wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
+		    .wc-block-grid__product-onsale{
+				background-color: #CEB361;
+				border-radius: 3px 3px 3px 3px;
+				margin: 4px;
+			
+				font-weight: 500;
+			}
