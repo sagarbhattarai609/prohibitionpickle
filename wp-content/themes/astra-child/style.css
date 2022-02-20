@@ -80,33 +80,11 @@ body .woocommerce button.button.alt.disabled,
 	
 		font-weight: 500; 
 	   }
-.wc-block-grid__product-onsale {
-	color: #ffffff;
-	border-color: #0274be;
-	background-color: #CEB361;							  
-   }
-body .woocommerce a.button, 
-body .woocommerce button.button, 
-body .woocommerce .woocommerce-message a.button,
-body .woocommerce #respond input#submit.alt,
-body .woocommerce a.button.alt,
-body .woocommerce button.button.alt,
-body .woocommerce input.button.alt,
-body .woocommerce input.button,
-body .woocommerce input.button:disabled,
-body .woocommerce input.button:disabled[disabled],
-body .woocommerce input.button:disabled:hover,
-body .woocommerce input.button:disabled[disabled]:hover,
-body .woocommerce #respond input#submit,
-body .woocommerce button.button.alt.disabled,
-body .wc-block-grid__products .wc-block-grid__product .wp-block-button__link,
-body .wc-block-grid__product-onsale{
-	color: #ffffff;
-	border-color: #0274be;
-	background-color: #CEB361;		
-}
- #wpadminbar .hfeed .ast-woocommerce-container .products .ast-col-sm-12 .astra-shop-summary-wrap a.button.product_type_simple.add_to_cart_button {
-	color: #ffffff;
-	border-color: #0274be;
+
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
 	background-color: #CEB361;
+		border-radius: 3px 3px 3px 3px;
+		margin: 4px;
+	
+		font-weight: 500; 
 }
