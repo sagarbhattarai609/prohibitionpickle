@@ -105,7 +105,7 @@ body.woocommerce a.button,
 	
 		font-weight: 500; 
 }
-.woocommerce ul.products li.product a img {
+body.woocommerce ul.products li.product a img {
     width: 75%;
     height: auto;
     display: block;
