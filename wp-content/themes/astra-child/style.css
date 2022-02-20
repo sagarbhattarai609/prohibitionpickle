@@ -22,7 +22,7 @@ Template: astra
 
 	font-weight: 500;
  } */
- td.woocommerce-orders-table__cell a ,a.button.ced_my_account_reorder ,a.button.ced_my_account_place_same_order {
+ td.woocommerce-orders-table__cell a,a.button.ced_my_account_reorder ,a.button.ced_my_account_place_same_order {
 	font-family: "Inter",Sans-serif;
     background-color: #CEB361;
     border-radius: 3px 3px 3px 3px;
@@ -54,6 +54,6 @@ a.checkout-button {
 	font-weight: 500;
 }
 
-.ced_cng_popup-container.ced_cng_no_content {
+.ced_cng_popup-container {
 	font-family: "Inter",Sans-serif;	
 }
