@@ -151,5 +151,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 	float: left !important;
 	margin-left: 42px;
   }
-
+  body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .container-body {
+    width: 100%;
+}
 
