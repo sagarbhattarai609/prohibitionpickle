@@ -214,10 +214,14 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
     /* padding: 2em; */
 	margin-bottom: 10px;
 }
-body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip {
+body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip,
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .cart-btn .skip ,
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .cart-btn .skip  {
     text-align: center;
 }
-body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip  a{
+body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip  a ,
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .cart-btn .skip a ,
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .cart-btn .skip a {
 	color: #CEB361;
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content div[id^="so-entry-content"] {
