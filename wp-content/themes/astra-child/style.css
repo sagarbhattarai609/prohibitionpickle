@@ -132,7 +132,7 @@ body.ast-page-builder-template .site-content > .ast-container {
 
 }
 body.single-product .site-main .ast-woocommerce-container .woocommerce-product-gallery{
-	width: 46%;
+	width: 46% !important;
 }
 }
 body.woocommerce h1.woocommerce-products-header__title ,h1.entry-title {
