@@ -200,8 +200,12 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 		margin-left: 1px;
 		width: 100%;
 	}
-	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .row.g-0 {
+	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .row {
 		display: unset;
+	}
+	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .cart-btn {
+		margin-left: -20px;
+		margin-top: 57px;
 	}
 }
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content div[id^="so-entry-content"] {
