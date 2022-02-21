@@ -141,4 +141,9 @@ body.woocommerce .astra-shop-summary-wrap {
 body.single-product .site-main .ast-woocommerce-container .woocommerce-product-gallery{
 	margin-right: 2% !important;
 }
+body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn {
+    width: 259px;
+    margin-top: 57px;
+    margin-right: 13px;
+}
 
