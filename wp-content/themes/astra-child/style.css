@@ -220,7 +220,7 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip  a{
 	color: #CEB361;
 }
-body.woocommerce-cart .mfp-bg .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content div[id^="so-entry-content"] {
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-contentt div[id^="so-entry-content"] {
     background: rgb(249 249 249);
     /* padding: 2em; */
     margin-top: 1px;
