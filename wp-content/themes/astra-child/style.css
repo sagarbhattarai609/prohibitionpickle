@@ -181,3 +181,8 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .price del.text-muted {
     color: red;
 }
+@media (min-width: 555px){
+	body.woocommerce-cart .hfeed .site-content .ast-container{
+		max-width: 80%;
+	}
+}
