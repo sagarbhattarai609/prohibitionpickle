@@ -182,7 +182,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
     color: red;
 }
 @media (min-width: 555px){
-	body.woocommerce-cart .hfeed .site-content .ast-container{
-		max-width: 80%;
+	.ast-page-builder-template .site-content > .ast-container{
+		max-width: 80% !important;
 	}
 }
