@@ -16,5 +16,15 @@ jQuery(document).ready(function ($) {
             $('p.gift-message').hide();
         }
     })
+    // show popup when product is added to cart
+
+    $('body').on( 'added_to_cart', function(){
+        $.magnificPopup.open({
+            items: {
+              src: '#offer-popup'
+            },
+            type: 'inline'
+          });
+    });
 
 })
