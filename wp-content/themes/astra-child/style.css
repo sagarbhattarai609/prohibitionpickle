@@ -208,6 +208,10 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 		margin-left: -20px;
 		margin-top: 57px;
 	}
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-inline-holder .mfp-content {
+		/* width: auto !important; */
+		max-width: 90% !important;
+	}
 }
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content div[id^="so-entry-content"] {
     background: #f9f9f9;
