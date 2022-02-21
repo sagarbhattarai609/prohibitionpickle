@@ -244,7 +244,9 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .container-body ,
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .container-body .so-offer-container  {
-    width: 58%;
+	width: 62%;
+    float: none;
+    margin-right: -22%;
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .cart-img {
     width: 25%;
