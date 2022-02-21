@@ -202,3 +202,6 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
     background: #f9f9f9;
     /* padding: 2em; */
 }
+body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip {
+    text-align: center;
+}
