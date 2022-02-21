@@ -185,4 +185,9 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 	.ast-container{
 		max-width: 80% !important;
 	}
+	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .woocommerce-product-gallery {
+		float: left;
+		margin-left: 1px;
+		width: 100%;
+	}
 }
