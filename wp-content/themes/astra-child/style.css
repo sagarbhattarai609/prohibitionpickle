@@ -99,7 +99,7 @@ body.woocommerce a.button,
 .wc-block-grid__products .wc-block-grid__product 
 .wp-block-button__link, 
 .wc-block-grid__product-onsale{
-	background-color: #CEB361;
+		background-color: #CEB361;
 		border-radius: 3px 3px 3px 3px;
 		margin: 4px;
 	
@@ -171,4 +171,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
     background-color: #4fad43;
     color: #ffffff;
     padding: 0.3em 1em;
+}
+body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .add a{
+    color: #ffffff;
 }
