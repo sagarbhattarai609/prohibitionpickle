@@ -248,7 +248,8 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
     float: none;
     margin-right: -22%;
 }
-body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .cart-img {
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .cart-img ,
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .cart-img {
     width: 25%;
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .woocommerce-product-gallery {
