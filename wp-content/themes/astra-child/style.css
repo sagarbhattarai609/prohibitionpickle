@@ -201,6 +201,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content div[id^="so-entry-content"] {
     background: #f9f9f9;
     /* padding: 2em; */
+	margin-bottom: 10px;
 }
 body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip {
     text-align: center;
