@@ -163,7 +163,8 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
     margin-right: -6%;
     margin-top: 20px;
 }
-body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .add {
+body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .add ,
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .entry-content .add {
     display: block;
     width: 100%;
     text-align: center;
@@ -224,15 +225,6 @@ body.woocommerce-cart .mfp-bg .mfp-wrap .mfp-container .mfp-content .popup-conte
     /* padding: 2em; */
     margin-top: 1px;
 }
-body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .entry-content .add {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    margin: 0 auto;
-    font-weight: 600;
-    border-radius: 5px;
-    background-color: #CEB361;
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .entry-content .add a{
     color: #ffffff;
-    padding: 0.3em 1em;
 }
