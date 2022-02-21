@@ -146,4 +146,8 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
     margin-top: 57px;
     margin-right: 13px;
 }
+body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .woocommerce-product-gallery{
+	margin-right: 0%;
+	margin-left: 42px;
+  }
 
