@@ -148,10 +148,8 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 }
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .woocommerce-product-gallery{
 	margin-right: 0%;
+	float: left !important;
 	margin-left: 42px;
   }
-  body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .woocommerce-product-gallery{
-    /* float: right; */
-    margin-right: 10%;
-}
+
 
