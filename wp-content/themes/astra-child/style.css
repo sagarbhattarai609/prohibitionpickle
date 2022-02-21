@@ -257,5 +257,5 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
     margin-right: 33%;
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .container-body {
-    margin-left: -104px;
+	float: right;
 }
