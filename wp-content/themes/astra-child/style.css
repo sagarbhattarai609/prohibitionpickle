@@ -175,3 +175,6 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .add a{
     color: #ffffff;
 }
+body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .price del.text-muted {
+    color: red;
+}
