@@ -224,7 +224,7 @@ body.woocommerce-cart .mfp-bg .mfp-wrap .mfp-container .mfp-content .popup-conte
     /* padding: 2em; */
     margin-top: 1px;
 }
-body.woocommerce-cart .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .entry-content .add {
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .entry-content .add {
     display: block;
     width: 100%;
     text-align: center;
