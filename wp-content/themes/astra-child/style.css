@@ -239,6 +239,8 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .cart-btn {
     width: 13%;
+	margin-left: 0px;
+    margin-top: 57px;
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .container-body .so-offer-container {
     width: 58%;
