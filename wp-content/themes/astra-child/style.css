@@ -198,3 +198,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 		width: 100%;
 	}
 }
+body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content div[id^="so-entry-content"] {
+    background: #f9f9f9;
+    /* padding: 2em; */
+}
