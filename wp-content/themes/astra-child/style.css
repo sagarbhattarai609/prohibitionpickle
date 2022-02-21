@@ -150,4 +150,8 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 	margin-right: 0%;
 	margin-left: 42px;
   }
+  body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .woocommerce-product-gallery{
+    /* float: right; */
+    margin-right: 10%;
+}
 
