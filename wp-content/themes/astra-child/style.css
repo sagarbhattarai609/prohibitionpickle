@@ -154,4 +154,8 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
   body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .container-body {
     width: 100%;
 }
-
+body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .cart-img {
+    width: 345px;
+    margin-right: -6%;
+    margin-top: 20px;
+}
