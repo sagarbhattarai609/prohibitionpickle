@@ -153,9 +153,22 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
   }
   body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .container-body {
     width: 100%;
+	margin-top: 10px;
 }
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .cart-img {
     width: 345px;
     margin-right: -6%;
     margin-top: 20px;
+}
+body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .add {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #4fad43;
+    color: #ffffff;
+    padding: 0.3em 1em;
 }
