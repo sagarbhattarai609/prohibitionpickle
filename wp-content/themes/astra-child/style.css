@@ -217,6 +217,9 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .container-body {
 		float: unset;
 	}
+	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content{
+		width: 80%;
+	}
 	
 }
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content div[id^="so-entry-content"] {
