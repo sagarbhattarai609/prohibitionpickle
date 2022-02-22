@@ -378,6 +378,7 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		margin-right: 0%;
 		float: left !important;
 		margin-left: 38px !important;
+		margin-bottom: 26px !important;
 	}
 	body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn {
 		width: 282px;
