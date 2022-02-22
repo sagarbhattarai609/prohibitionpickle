@@ -325,7 +325,7 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .woocommerce-product-gallery {
 		float: left;
 		/* margin-right: 20%; */
-		margin-left: 107px !important;
+		margin-left: 66px !important;
 	}
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .card .container-body {
 		background-color: transparent
@@ -342,7 +342,7 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		margin-left: 22px;
 	}
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .so_product_image:not(.so-order-bump-image) {
-		width: 100% !important;
+		width: 200% !important;
 		margin-right: 2em !important;
 		margin-top: 10px !important;
 	}
