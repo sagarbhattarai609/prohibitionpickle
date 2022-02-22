@@ -187,7 +187,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 }
 @media (max-width: 555px){
 	.ast-container{
-		max-width: 80% !important;
+		max-width: 85% !important;
 	}
 	.woocommerce div.product div.images, 
 	.woocommerce div.product div.summary,
