@@ -433,5 +433,10 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 			margin-top: 20px;
 	}
 }
+@media (max-width:720px) {
+	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .card .row{
+		display: grid;
+	}
+}
 
 
