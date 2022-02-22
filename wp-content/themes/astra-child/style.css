@@ -387,6 +387,7 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 	margin:0 auto;
 	align-items: center;
 	justify-content: space-between;
+	padding:20px 0;
 }
 .single-product .popup-content .card .container-body{
 	flex:1 1 60%;
@@ -394,6 +395,13 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 
 .single-product .popup-content .card .cart-img{
 	flex: 1 1 20%;
+	text-align: center;
+}
+
+.single-product .popup-content .card .cart-img .so_product_image{
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .single-product .popup-content .card .cart-btn{
