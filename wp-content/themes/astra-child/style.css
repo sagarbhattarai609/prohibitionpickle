@@ -266,6 +266,9 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .cart-img {
     width: 25%;
 }
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .card.mb-3 {
+    background: #f9f9f9;
+}
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .woocommerce-product-gallery {
     float: right;
     margin-right: 20%;
