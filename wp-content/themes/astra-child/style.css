@@ -234,9 +234,9 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 	color: #CEB361;
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content div[id^="so-entry-content"] {
-    background: rgb(249 249 249);
-    /* padding: 2em; */
-    margin-top: 1px;
+	background: rgb(255 255 255);
+    padding: 2em;
+    margin-top: 0px;
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .entry-content .add a{
     color: #ffffff;
