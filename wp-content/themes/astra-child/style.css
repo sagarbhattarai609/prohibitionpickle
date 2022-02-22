@@ -280,7 +280,7 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 	margin-left: 19%;
 }
 @media (max-width: 1333px) {
-	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .woocommerce-product-gallery {
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-conten .entry-content .woocommerce-product-gallery {
 		float: left;
 		margin-right: 0px;
 		margin-left: 121px;
