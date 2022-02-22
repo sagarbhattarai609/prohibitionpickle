@@ -373,6 +373,11 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		width: 80%;
 		margin-top: 10px;
 	}
+	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .woocommerce-product-gallery {
+		margin-right: 0%;
+		float: left !important;
+		margin-left: 55px !important;
+	}
   }
 
 
