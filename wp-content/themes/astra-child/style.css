@@ -413,8 +413,7 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 		margin-top: 57px;
 		margin-right: 13px;
 		}
-		body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .woocommerce-product-gallery,
-		body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .woocommerce-product-gallery{
+		body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .woocommerce-product-gallery{
 	
 			float: right;
 			margin-right: 20%;
@@ -422,6 +421,13 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 			width:49%;
 			margin-top: 20px;
 		
+	}
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .woocommerce-product-gallery{
+			float: right;
+			margin-right: 20%;
+			margin-left: 205px;
+			width:49%;
+			margin-top: 20px;
 	}
 }
 
