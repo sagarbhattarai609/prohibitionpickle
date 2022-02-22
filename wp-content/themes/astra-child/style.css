@@ -318,4 +318,10 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		margin-left: 19%;
 		margin-top: 57px;
 	}
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .woocommerce-product-gallery ,
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .woocommerce-product-gallery {
+		float: left;
+		/* margin-right: 20%; */
+		margin-left: 107px !important;
+	}
 }
