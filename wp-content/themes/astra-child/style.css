@@ -384,6 +384,11 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		margin-top: 57px;
 		margin-right: 13px;
 	}
+	body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn {
+		width: 285px;
+		margin-top: 57px;
+		margin-right: 13px;
+	}
   }
   @media only screen and (max-width: 1920px){
 	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .woocommerce-product-gallery {
@@ -391,11 +396,6 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		float: left !important;
 		margin-left: 11px;
 		width: 49% !important;
-	}
-	body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn {
-		width: 317px;
-		margin-top: 57px;
-		margin-right: 13px;
 	}
   }
 
