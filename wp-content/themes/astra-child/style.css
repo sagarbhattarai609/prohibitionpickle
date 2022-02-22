@@ -399,7 +399,7 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		width: 49% !important;
 	}
   }
-  @media only screen and (max-width: 1020px){
+  @media only screen and (min-width: 1020px){
 body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn {
     width: 291px;
     margin-top: 57px;
