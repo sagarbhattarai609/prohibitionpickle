@@ -208,7 +208,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .cart-btn {
 		margin-left: -20px;
 		margin-top: 57px;
-		width: 283px;
+		width: 283px !important;
 	}
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-inline-holder .mfp-content {
 		/* width: auto !important; */
