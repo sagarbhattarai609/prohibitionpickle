@@ -382,4 +382,20 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 	}
 }
 
+.single-product .popup-content .card .row{
+	max-width:80%;
+	margin:0 auto;
+	align-items: center;
+	justify-content: space-between;
+}
+.single-product .popup-content .card .container-body{
+	flex:1 1 60%;
+}
 
+.single-product .popup-content .card .cart-img{
+	flex: 1 1 20%;
+}
+
+.single-product .popup-content .card .cart-btn{
+	flex: 1 1 20%;
+}
