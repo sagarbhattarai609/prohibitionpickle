@@ -279,3 +279,13 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .cart-btn{
 	margin-left: 19%;
 }
+@media (max-width: 1333px) {
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2902 .entry-content .woocommerce-product-gallery {
+		float: left;
+		margin-right: 0px;
+		margin-left: 121px;
+		width: 31%;
+		margin-top: 20px;
+	}
+  }
+  
