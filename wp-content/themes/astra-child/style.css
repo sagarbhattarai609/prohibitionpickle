@@ -406,4 +406,12 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 
 .single-product .popup-content .card .cart-btn{
 	flex: 1 1 20%;
+	margin-top: auto;
+}
+
+.single-product .popup-content .card .cart-btn .add{
+	text-align: center;
+	background-color: #CEB361;
+	text-align: center;
+	padding: 8px;
 }
