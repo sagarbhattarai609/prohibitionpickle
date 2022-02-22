@@ -407,6 +407,7 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 .single-product .popup-content .card .cart-btn{
 	flex: 1 1 20%;
 	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .single-product .popup-content .card .cart-btn .add{
@@ -414,4 +415,5 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
 	background-color: #CEB361;
 	text-align: center;
 	padding: 8px;
+	
 }
