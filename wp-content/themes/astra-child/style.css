@@ -123,8 +123,6 @@ body.ast-page-builder-template .site-content > .ast-container {
     max-width: 1180px;
 	margin-bottom: 36px;
 	margin-top: 10px;
-	margin-left: 20px;
-    margin-right: 20px;
 }
 #primary {
     width: unset;
@@ -401,12 +399,12 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		width: 49% !important;
 	}
   }
-  @media only screen and (min-width: 1020px){
+  @media only screen and (max-width: 1920px){
 body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn {
     width: 291px;
     margin-top: 57px;
     margin-right: 13px;
-}
+	}
 }
 
 
