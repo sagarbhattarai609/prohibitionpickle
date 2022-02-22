@@ -368,6 +368,7 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 @media only screen and (max-width: 550px){
 	body.woocommerce-cart #content .ast-container {
 	  width: 85%;
+	  margin-top: 42px;
 	}
 	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .container-body {
 		width: 80%;
