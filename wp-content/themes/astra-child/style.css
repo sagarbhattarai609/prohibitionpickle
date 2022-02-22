@@ -329,7 +329,11 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		width: 100%;
 		float: none;
 		margin-right: -21%;
-		margin-left: -16px;
+		margin-left: 0px;
+	}
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .so-offer-container {
+		width: 100%;
+		margin-left: 22px;
 	}
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .so_product_image:not(.so-order-bump-image) {
 		width: 100% !important;
