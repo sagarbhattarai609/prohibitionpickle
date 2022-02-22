@@ -407,12 +407,21 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
     margin-right: 13px;
 	}
 }
-@media only screen and (max-width:1080px){
+@media (max-width:1080px){
 	body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn {
 		width: 300px;
 		margin-top: 57px;
 		margin-right: 13px;
 		}
+		body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-content-2904 .entry-content .woocommerce-product-gallery{
+	
+			float: right;
+			margin-right: 20%;
+			margin-left: 205px;
+			width:49%;
+			margin-top: 20px;
+		
+	}
 }
 
 
