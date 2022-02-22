@@ -365,7 +365,7 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		margin-top: 20px;
 	}
 }
-@media only screen and (max-width: 550px){
+@media (max-width: 550px){
 	body.woocommerce-cart #content .ast-container {
 	  width: 85%;
 	  margin-top: 42px;
