@@ -203,7 +203,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 	}
 	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .row ,
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content .entry-content{
-		display: unset;
+		display: inline-block;
 	}
 	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .cart-btn {
 		margin-left: -20px;
