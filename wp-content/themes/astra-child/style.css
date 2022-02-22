@@ -187,7 +187,7 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 }
 @media (max-width: 555px){
 	.ast-container{
-		max-width: 85% !important;
+		max-width: 80% !important;
 	}
 	.woocommerce div.product div.images, 
 	.woocommerce div.product div.summary,
@@ -365,5 +365,10 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 		margin-top: 20px;
 	}
 }
+@media only screen and (max-width: 550px){
+	body.woocommerce-cart #content .ast-container {
+	  width: 85%;
+	}
+  }
 
 
