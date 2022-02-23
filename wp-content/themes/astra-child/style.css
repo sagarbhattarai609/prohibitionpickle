@@ -338,6 +338,10 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .entry-con
 		font-size: 28px;
 		font-family: Arial,Baskerville,monospace;
 	}
+	body.woocommerce-cart #content .ast-container {
+		width: 70%;
+		margin-top: 38px;
+	}
 	
 }
 body.woocommerce .mfp-wrap .mfp-container .mfp-content #offer-popup .so-offer-content div[id^="so-entry-content"] {
