@@ -188,9 +188,9 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 		display: inline-block;
 	}
 	body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-content .entry-content .cart-btn {
-		margin-left: -20px;
-		margin-top: 57px;
-		width: 75% !important;
+		width: 100% !important;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-inline-holder .mfp-content {
 		/* width: auto !important; */
