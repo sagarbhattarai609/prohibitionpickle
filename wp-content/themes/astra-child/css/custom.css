@@ -566,6 +566,34 @@ body.woocommerce-checkout #content .ast-container form.woocommerce-checkout #tgp
   width: auto;
 }
 
+body.woocommerce-checkout #content .ast-container .so-offer-top-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-top-heading .text {
+  font-size: 24px;
+  color: #e0ae3f;
+  font-weight: 500;
+  margin-bottom: 22px;
+  padding: 20px 0;
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-top-heading .skip_link a {
+  font-size: 24px;
+  color: #e0ae3f;
+  font-weight: 500;
+  margin-bottom: 22px;
+  padding: 20px 0;
+}
+
 footer {
   position: relative;
   background: #000;
