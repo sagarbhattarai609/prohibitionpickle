@@ -297,5 +297,10 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-close
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .entry-content .card .cart-btn {
 		margin: 10px;
 	}
+	.single-product .popup-content .card .container-body {
+		flex: 1 1 60%;
+		margin-left: 2px;
+		margin-right: auto;
+	}
 	
 }
