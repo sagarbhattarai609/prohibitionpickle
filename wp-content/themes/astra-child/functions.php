@@ -56,26 +56,62 @@ function tl_some_custom_checkout_field_update_order_meta( $order_id ) {
 	}
 }
 
+/**
+ * 
+ * show delivery limitation in product archive page
+ * 
+ * */ 
 
 add_action( 'woocommerce_archive_description', 'show_delivery_limitation_func', 10 );
 
 function show_delivery_limitation_func (){
+	$category = get_queried_object();	
 	if(is_product_category()){
 		$args = array(
 			'post_type' => 'delivery_limitations',
 			'post_status' => 'publish',
-			'category_name' => 'product_cat',
 			'posts_per_page' => -1,
+			'tax_query' => array(
+				array(
+					'taxonomy' => 'product_cat',
+					'field' => 'slug',
+					'terms' => $category->slug
+				)
+		  	)
 		);
 		$query = new WP_Query( $args );
-
-		if ( $query->have_posts() ) :while ( $query->have_posts() ) : $query->the_post();	?>
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<h1 class="entry-title"><?php the_title(); ?></h1>
-				<div class="content">
-					<?php the_content();?>
+		if ( $query->have_posts() ) :
+			while ( $query->have_posts() ) : $query->the_post();?>
+				<div class="delivery_limitaion_wrapper">
+					<div class="title">
+						<h1><?php the_title();?>
+					</div>
+					<div class="content">
+						<?php the_content();?>
+					</div>
 				</div>
-			</article>
-		<?php endwhile; endif;
+			<?php endwhile;
+		endif;
+
 	}
 }  
+
+/**
+ * 
+ * Show delivery limitaion in the single product page 
+ * 
+ * */ 
+add_action('woocommerce_before_add_to_cart_form', 'delivery_limitaion_single_product_func',10);
+
+function delivery_limitaion_single_product_func()
+{
+	if(is_product()){
+		$post = get_field('delivery_limitation');
+		if( $post ): ?>
+			<div class="delivery_limitaion_wrapper">
+				<div class="title">	<h3><?php echo esc_html( $post->post_title ); ?></h3></div>
+				<div class="content"><?php echo $post->post_content;?></div>
+			</div>
+		<?php endif; 
+	}
+}
