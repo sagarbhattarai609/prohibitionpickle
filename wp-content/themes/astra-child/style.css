@@ -210,6 +210,9 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
     margin-bottom: 0px;
     border: 1px solid #dbdbdb;
 }
+body.woocommerce-cart .hfeed .site-content .content-area .woocommerce form.woocommerce-cart-form {
+    margin-top: 66px;
+}
 body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip,
 body.woocommerce .mfp-wrap .mfp-container .mfp-content #offer-popup .entry-content .cart-btn .skip {
     text-align: center;
