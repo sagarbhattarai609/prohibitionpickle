@@ -12,15 +12,16 @@ body{
                     margin-bottom: 22px;
                     padding: 20px 0;
                 }
-                a{
-                    font-size: 24px;
-                    color: #e0ae3f;
-                    font-weight: 500;
-                    margin-bottom: 22px;
-                    padding: 20px 0;
-                }
+                .skip_link{
+                    a{
+                        font-size: 24px;
+                        color: #e0ae3f;
+                        font-weight: 500;
+                        margin-bottom: 22px;
+                        padding: 20px 0;
+                    }
+                }                
             }
-
         }
     }
 }
