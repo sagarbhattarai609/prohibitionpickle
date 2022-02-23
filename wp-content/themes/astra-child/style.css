@@ -286,6 +286,9 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-close
     font-size: 28px;
     font-family: Arial,Baskerville,monospace;
 }
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .entry-content .so-entry-content .card {
+    background: #F9F9F9 !important;
+}
 @media (max-width:555px) {
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .entry-content .card .row {
 		display: contents;
