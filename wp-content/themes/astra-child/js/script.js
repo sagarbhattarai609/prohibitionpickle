@@ -27,4 +27,15 @@ jQuery(document).ready(function ($) {
           });
     });
 
+
+    if ($('body.woocommerce-cart').find('div.so-offer-content.so-inline').length !== 0) {
+        $('div.so-offer-content.so-inline').eq(0).before('<div class="so-offer-top-heading"><div class="text">Frequently Bought Together</div><div class="skip_link mobile_sticky"><a href="#" id="goToCheckout">Skip & Continue to Checkout <span class="ri ri-chevron-down"></span></a></div></div>')
+    }
+
+    // // if cartpage
+    // if (jQuery('body.page-id-20242').find('div.so-offer-content.so-inline').length !== 0) {
+    //     jQuery('div.so-offer-content.so-inline').eq(0).before('<div class="so-offer-top-heading"><div class="text">Frequently Bought Together</div><div class="skip_link mobile_sticky"><a href="/checkout" id="goToCouponCart">Skip & Continue to Cart <span class="ri ri-chevron-down"></span></a></div></div>')
+    //     jQuery('div.so-offer-content.so-inline').eq(-1).find('.entry-content').css('margin-bottom', '50px')
+    // }
+
 })
