@@ -262,3 +262,8 @@ body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .
     text-align: center;
     padding: 8px 2px;
 }
+body.woocommerce .mfp-wrap .mfp-container .mfp-content div#offer-popup {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
