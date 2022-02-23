@@ -213,9 +213,6 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce form.woocommerce-cart-form {
     margin-top: 66px;
 }
-body.woocommerce-cart .hfeed .site-content .content-area .entry-content .woocommerce form.woocommerce-cart-form .actions .coupon button.button {
-    color: #fff !important;
-}
 .woocommerce #content table.cart td.actions,
  .woocommerce table.cart td.actions, 
  .woocommerce-page #content table.cart td.actions,
