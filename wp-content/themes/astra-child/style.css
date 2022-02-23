@@ -290,5 +290,9 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-close
 	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .entry-content .card .row {
 		display: contents;
 	}
+	.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-4.images.so_product_image {
+		float: unset;
+		margin-right: 10%;
+	}
 	
 }
