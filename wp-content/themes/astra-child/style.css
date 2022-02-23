@@ -294,5 +294,8 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-close
 		float: unset;
 		margin-right: 10%;
 	}
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .entry-content .card .cart-btn {
+		margin: 10px;
+	}
 	
 }
