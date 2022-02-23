@@ -267,3 +267,19 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content div#offer-popup {
     margin-left: auto;
     margin-right: auto;
 }
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-close {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 185px;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    opacity: .65;
+    padding: 0 0 18px 10px;
+    color: #FFF;
+    font-style: normal;
+    font-size: 28px;
+    font-family: Arial,Baskerville,monospace;
+}
