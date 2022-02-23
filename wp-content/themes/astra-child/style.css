@@ -302,5 +302,21 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-close
 		margin-left: 2px;
 		margin-right: auto;
 	}
+	body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-close {
+		width: 44px;
+		height: 44px;
+		line-height: 44px;
+		position: absolute;
+		right: 34px;
+		top: 0;
+		text-decoration: none;
+		text-align: center;
+		opacity: .65;
+		padding: 0 0 18px 10px;
+		color: #000;
+		font-style: normal;
+		font-size: 28px;
+		font-family: Arial,Baskerville,monospace;
+	}
 	
 }
