@@ -1,9 +1,16 @@
 body{
     &.woocommerce-cart{
         #content{
-            .ast-container{
-                width: 70%;
+            .so-offer-top-heading{
+                .text {
+                    font-size: 24px;
+                    color: #e0ae3f;
+                    font-weight: 500;
+                    margin-bottom: 22px;
+                    padding: 20px 0;
+                }
             }
+
         }
     }
 }
