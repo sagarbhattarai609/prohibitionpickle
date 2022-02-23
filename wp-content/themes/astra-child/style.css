@@ -257,3 +257,8 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 	padding: 8px;
 	
 }
+body.single-product .popup-content .card .cart-btn .add{
+	background: #CEB361;
+    text-align: center;
+    padding: 8px 2px;
+}
