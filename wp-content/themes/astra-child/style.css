@@ -213,9 +213,15 @@ body.woocommerce-cart .hfeed .site-content .content-area .woocommerce .so-offer-
 body.woocommerce-cart .hfeed .site-content .content-area .woocommerce form.woocommerce-cart-form {
     margin-top: 66px;
 }
-body.woocommerce-cart .hfeed .site-content .content-area .woocommerce form.woocommerce-cart-form .actions .coupon button.button {
+body.woocommerce-cart .hfeed .site-content .content-area .entry-content .woocommerce form.woocommerce-cart-form .actions .coupon button.button {
     color: #fff !important;
 }
+.woocommerce #content table.cart td.actions,
+ .woocommerce table.cart td.actions, 
+ .woocommerce-page #content table.cart td.actions,
+  .woocommerce-page table.cart td.actions{
+	color: #fff !important;
+  }
 body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .cart-btn .skip,
 body.woocommerce .mfp-wrap .mfp-container .mfp-content #offer-popup .entry-content .cart-btn .skip {
     text-align: center;
