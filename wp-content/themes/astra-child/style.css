@@ -257,8 +257,9 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-offer-
 	padding: 8px;
 	
 }
-body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-entry-content-2904 .card.mb-3 {
-    background: none !important;
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-entry-content-2904 .card.mb-3 ,
+body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content #so-entry-content-2902 .card.mb-3 {
+    background: #F9F9F9 !important;
 }
 body.woocommerce-cart .site-content .ast-container .woocommerce .entry-content .card .cart-btn .add{
 	background: #CEB361;
