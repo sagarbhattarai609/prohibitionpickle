@@ -288,11 +288,11 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .mfp-close
     font-size: 28px;
     font-family: Arial,Baskerville,monospace;
 }
-body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content div[id^="so-entry-content"] {
+/* body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .so-offer-content div[id^="so-entry-content"] {
 	background: #FFF;
     padding: 0em !important;
 
-}
+} */
 body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .entry-content .so-entry-content .card {
     background: #F9F9F9 !important;
 }
@@ -329,4 +329,8 @@ body.woocommerce .mfp-wrap .mfp-container .mfp-content .popup-content .entry-con
 		font-family: Arial,Baskerville,monospace;
 	}
 	
+}
+body.woocommerce .mfp-wrap .mfp-container .mfp-content #offer-popup .so-offer-content div[id^="so-entry-content"] {
+    background: none;
+    padding: 0em !important;
 }
