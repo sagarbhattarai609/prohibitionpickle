@@ -303,20 +303,18 @@ body {
                                 text-align: left;
                             }
                         }
-                        .sp-client-testimonial {
-                            .sp-testimonial-content {
-                                p {
-                                    color: #fff !important;
-                                    text-align: left;
-                                    font-family: "Inter";
-                                    font-style: normal;
-                                    font-weight: normal;
-                                    font-size: 18px;
-                                    line-height: 22px;
-                                    @media screen and (max-width: 767px) {
-                                        font-size: 14px;
-                                        line-height: 17px;
-                                    }
+                        .sp-testimonial-content{
+                            p {
+                                color: #fff !important;
+                                text-align: left;
+                                font-family: "Inter";
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 18px;
+                                line-height: 22px;
+                                @media screen and (max-width: 767px) {
+                                    font-size: 14px;
+                                    line-height: 17px;
                                 }
                             }
                         }
