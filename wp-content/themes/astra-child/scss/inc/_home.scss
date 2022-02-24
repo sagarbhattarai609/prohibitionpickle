@@ -284,7 +284,7 @@ body {
                     @media screen and (max-width: 767px) {
                         width: 100%;
                     }
-                    .sp-testimonial-free-item {
+                    .sp-testimonial-free {
                         border-radius: 9px;
                         border: 2px dashed #f2c44e;
                         background: #171616;
@@ -292,17 +292,15 @@ body {
                         @media screen and (max-width: 767px) {
                             padding: 20px;
                         }
-                        .sp-testimonial-free {
-                            .sp-testimonial-title {
-                                h3 {
-                                    color: #fff !important;
-                                    font-family: Inter;
-                                    font-style: normal;
-                                    font-weight: bold;
-                                    font-size: 18px;
-                                    line-height: 22px;
-                                    text-align: left;
-                                }
+                        .sp-testimonial-title {
+                            h3 {
+                                color: #fff !important;
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 18px;
+                                line-height: 22px;
+                                text-align: left;
                             }
                         }
                     }

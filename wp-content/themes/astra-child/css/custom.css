@@ -341,7 +341,7 @@ body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper 
   }
 }
 
-body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item {
+body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free {
   border-radius: 9px;
   border: 2px dashed #f2c44e;
   background: #171616;
@@ -349,12 +349,12 @@ body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper 
 }
 
 @media screen and (max-width: 767px) {
-  body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item {
+  body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free {
     padding: 20px;
   }
 }
 
-body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item .sp-testimonial-free .sp-testimonial-title h3 {
+body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free .sp-testimonial-title h3 {
   color: #fff !important;
   font-family: Inter;
   font-style: normal;
