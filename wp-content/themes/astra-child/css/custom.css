@@ -354,7 +354,7 @@ body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper 
   }
 }
 
-body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item .sp-testimonial-free .tfree-testimonial-title h3 {
+body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item .sp-testimonial-free .sp-testimonial-title h3 {
   color: #fff !important;
   font-family: Inter;
   font-style: normal;
@@ -364,7 +364,7 @@ body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper 
   text-align: left;
 }
 
-body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item .sp-testimonial-free .tfree-client-testimonial .tfree-testimonial-content p {
+body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item .sp-testimonial-free .sp-client-testimonial .sp-testimonial-content p {
   color: #fff !important;
   text-align: left;
   font-family: "Inter";
@@ -375,7 +375,7 @@ body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper 
 }
 
 @media screen and (max-width: 767px) {
-  body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item .sp-testimonial-free .tfree-client-testimonial .tfree-testimonial-content p {
+  body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free-item .sp-testimonial-free .sp-client-testimonial .sp-testimonial-content p {
     font-size: 14px;
     line-height: 17px;
   }
