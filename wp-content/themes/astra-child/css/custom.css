@@ -364,6 +364,23 @@ body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper 
   text-align: left;
 }
 
+body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free .sp-client-testimonial .sp-testimonial-content p {
+  color: #fff !important;
+  text-align: left;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 767px) {
+  body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .sp-testimonial-free .sp-client-testimonial .sp-testimonial-content p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
 body.home .testimonial-section .testimonial-slider .sp-testimonial-free-wrapper .slick-arrow i {
   color: #f2c44e;
 }
