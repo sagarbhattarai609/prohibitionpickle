@@ -7,50 +7,50 @@ body {
                 margin-right: auto;
                 margin-top: 50px;
                 border: none;
-            }
-            #offer-popup {
-                .so-offer-content.so-inline {
-                    div[id^="so-entry-content"] {
-                        background: #f9f9f9;
-                        border: 1px solid #eee;
-                        .so-headline {
-                            display: none;
-                        }
-                        #wpgis-gallery {
-                            display: none;
-                        }
-                        .so-offer {
-                            .so_product_image {
-                                width: 15%;
-                                @media (max-width: 767px) {
-                                    width: 100% !important;
-                                }
+            }            
+        }
+        #offer-popup {
+            .so-offer-content.so-inline {
+                div[id^="so-entry-content"] {
+                    background: #f9f9f9;
+                    border: 1px solid #eee;
+                    .so-headline {
+                        display: none;
+                    }
+                    #wpgis-gallery {
+                        display: none;
+                    }
+                    .so-offer {
+                        .so_product_image {
+                            width: 15%;
+                            @media (max-width: 767px) {
+                                width: 100% !important;
                             }
-                            .so-offer-container {
-                                width: 60%;
-                                @media (max-width: 767px) {
-                                    width: 100%;
-                                }
+                        }
+                        .so-offer-container {
+                            width: 60%;
+                            @media (max-width: 767px) {
+                                width: 100%;
                             }
-                            .so-offer-btn-container {
-                                width: 25%;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: center;
-                                @media (max-width: 767px) {
-                                    width: 100%;
-                                }
-                                .so_accept {
-                                    width: 80%;
-                                    font-size: 1rem;
-                                    padding: 12px 20px;
-                                    margin-bottom: 10px;
-                                    background-color: #f56721;
-                                    border-radius: 0;
-                                }
-                                .so_skip {
-                                    margin: 0;
-                                }
+                        }
+                        .so-offer-btn-container {
+                            width: 25%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            @media (max-width: 767px) {
+                                width: 100%;
+                            }
+                            .so_accept {
+                                width: 80%;
+                                font-size: 1rem;
+                                padding: 12px 20px;
+                                margin-bottom: 10px;
+                                background-color: #f56721;
+                                border-radius: 0;
+                            }
+                            .so_skip {
+                                margin: 0;
                             }
                         }
                     }
