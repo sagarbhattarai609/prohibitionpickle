@@ -620,6 +620,7 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
   margin-bottom: 10px;
   background-color: transparent;
   background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+  background-repeat: no-repeat;
   border-radius: 0;
 }
 
