@@ -7,7 +7,7 @@ body {
                 margin-right: auto;
                 margin-top: 50px;
                 border: none;
-            }            
+            }
         }
         #offer-popup {
             background: #f9f9f9;
@@ -22,7 +22,7 @@ body {
                         display: none;
                     }
                     .so-offer {
-                        .image-wrapper{
+                        .image-wrapper {
                             width: 25%;
                             text-align: center;
                             .so_product_image {
@@ -30,18 +30,18 @@ body {
                                 @media (max-width: 767px) {
                                     width: 100% !important;
                                 }
-                                .woocommerce-product-gallery__trigger{
+                                .woocommerce-product-gallery__trigger {
                                     display: none;
                                 }
                             }
-                        }                        
+                        }
                         .so-offer-container {
                             width: 60%;
                             @media (max-width: 767px) {
                                 width: 100%;
                             }
-                            .woocommerce-product-details__short-description{
-                                p{
+                            .woocommerce-product-details__short-description {
+                                p {
                                     margin-bottom: 10px;
                                 }
                             }
@@ -59,7 +59,8 @@ body {
                                 font-size: 1rem;
                                 padding: 12px 20px;
                                 margin-bottom: 10px;
-                                background-color: #f56721;
+                                background-color: transparent;
+                                background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
                                 border-radius: 0;
                             }
                             .so_skip {
