@@ -10,6 +10,7 @@ body {
             }            
         }
         #offer-popup {
+            background: #f9f9f9;
             .so-offer-content.so-inline {
                 div[id^="so-entry-content"] {
                     background: #f9f9f9;
@@ -21,12 +22,18 @@ body {
                         display: none;
                     }
                     .so-offer {
-                        .so_product_image {
-                            width: 15%;
-                            @media (max-width: 767px) {
-                                width: 100% !important;
+                        .image-wrapper{
+                            width: 25%;
+                            .so_product_image {
+                                width: 50%;
+                                @media (max-width: 767px) {
+                                    width: 100% !important;
+                                }
+                                .woocommerce-product-gallery__trigger{
+                                    display: none;
+                                }
                             }
-                        }
+                        }                        
                         .so-offer-container {
                             width: 60%;
                             @media (max-width: 767px) {

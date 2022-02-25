@@ -522,6 +522,10 @@ body.single-product .ast-container #primary {
   border: none;
 }
 
+body.single-product #offer-popup {
+  background: #f9f9f9;
+}
+
 body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] {
   background: #f9f9f9;
   border: 1px solid #eee;
@@ -535,14 +539,22 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
   display: none;
 }
 
-body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so_product_image {
-  width: 15%;
+body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper {
+  width: 25%;
+}
+
+body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper .so_product_image {
+  width: 50%;
 }
 
 @media (max-width: 767px) {
-  body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so_product_image {
+  body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper .so_product_image {
     width: 100% !important;
   }
+}
+
+body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper .so_product_image .woocommerce-product-gallery__trigger {
+  display: none;
 }
 
 body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-container {
