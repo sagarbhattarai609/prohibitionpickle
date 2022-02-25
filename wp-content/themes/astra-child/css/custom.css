@@ -526,7 +526,7 @@ body.single-product #offer-popup {
   background: #f9f9f9;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   body.single-product #offer-popup {
     padding: 25px 30px;
   }
@@ -556,7 +556,7 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
   text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper {
     width: 100% !important;
   }
@@ -566,7 +566,7 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
   width: 80%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper .so_product_image {
     width: 100% !important;
     margin-right: 0 !important;
@@ -581,7 +581,7 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
   width: 60%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-container {
     width: 100%;
     text-align: left;
@@ -606,7 +606,7 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
           justify-content: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-btn-container {
     width: 100%;
     text-align: left;
