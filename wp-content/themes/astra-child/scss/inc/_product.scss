@@ -11,10 +11,17 @@ body {
         }
         #offer-popup {
             background: #f9f9f9;
+            @media screen and (max-width:767px) {
+                padding:25px 30px;
+
+            }
             .so-offer-content.so-inline {
                 div[id^="so-entry-content"] {
                     background: #f9f9f9;
                     border: 1px solid #eee;
+                    @media screen and (max-width:767px) {
+                        border: none;
+                    }
                     .so-headline {
                         display: none;
                     }
@@ -25,10 +32,14 @@ body {
                         .image-wrapper {
                             width: 25%;
                             text-align: center;
+                            @media (max-width: 767px) {
+                                width: 100% !important;
+                            }
                             .so_product_image {
                                 width: 80%;
                                 @media (max-width: 767px) {
                                     width: 100% !important;
+                                    margin-right: 0 !important;
                                 }
                                 .woocommerce-product-gallery__trigger {
                                     display: none;
@@ -53,6 +64,7 @@ body {
                             justify-content: center;
                             @media (max-width: 767px) {
                                 width: 100%;
+                                text-align: left;
                             }
                             .so_accept {
                                 width: 80%;
