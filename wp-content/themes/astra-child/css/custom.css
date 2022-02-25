@@ -537,7 +537,7 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
   border: 1px solid #eee;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] {
     border: none !important;
   }

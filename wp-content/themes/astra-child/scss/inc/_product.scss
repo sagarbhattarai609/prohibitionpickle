@@ -19,7 +19,7 @@ body {
                 div[id^="so-entry-content"] {
                     background: #f9f9f9;
                     border: 1px solid #eee;
-                    @media screen and (max-width:767px) {
+                    @media screen and (max-width:768px) {
                         border: none !important;
                     }
                     .so-headline {
