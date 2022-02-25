@@ -24,8 +24,9 @@ body {
                     .so-offer {
                         .image-wrapper{
                             width: 25%;
+                            text-align: center;
                             .so_product_image {
-                                width: 50%;
+                                width: 80%;
                                 @media (max-width: 767px) {
                                     width: 100% !important;
                                 }
@@ -38,6 +39,11 @@ body {
                             width: 60%;
                             @media (max-width: 767px) {
                                 width: 100%;
+                            }
+                            .woocommerce-product-details__short-description{
+                                p{
+                                    margin-bottom: 10px;
+                                }
                             }
                         }
                         .so-offer-btn-container {
