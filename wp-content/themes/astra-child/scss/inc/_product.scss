@@ -20,7 +20,7 @@ body {
                     background: #f9f9f9;
                     border: 1px solid #eee;
                     @media screen and (max-width:767px) {
-                        border: none;
+                        border: none !important;
                     }
                     .so-headline {
                         display: none;
@@ -50,6 +50,7 @@ body {
                             width: 60%;
                             @media (max-width: 767px) {
                                 width: 100%;
+                                text-align: left;
                             }
                             .woocommerce-product-details__short-description {
                                 p {

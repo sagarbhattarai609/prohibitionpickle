@@ -539,7 +539,7 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
 
 @media screen and (max-width: 767px) {
   body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] {
-    border: none;
+    border: none !important;
   }
 }
 
@@ -584,6 +584,7 @@ body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-c
 @media (max-width: 767px) {
   body.single-product #offer-popup .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-container {
     width: 100%;
+    text-align: left;
   }
 }
 
