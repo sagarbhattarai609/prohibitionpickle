@@ -776,6 +776,10 @@ body.woocommerce-cart #content .so-offer-content.so-inline div[id^="so-entry-con
   margin: 0;
 }
 
+body.woocommerce-checkout #content .ast-container {
+  max-width: 1180px;
+}
+
 body.woocommerce-checkout #content .ast-container form.woocommerce-checkout #tgpc_enable_checkout_gift_wrapper_field label.checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -798,14 +802,25 @@ body.woocommerce-checkout #content .ast-container .so-offer-top-heading {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
+@media (max-width: 767px) {
+  body.woocommerce-checkout #content .ast-container .so-offer-top-heading {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 22px;
+  }
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-top-heading a,
 body.woocommerce-checkout #content .ast-container .so-offer-top-heading .text {
   font-size: 24px;
   color: #e0ae3f;
@@ -814,12 +829,117 @@ body.woocommerce-checkout #content .ast-container .so-offer-top-heading .text {
   padding: 20px 0;
 }
 
-body.woocommerce-checkout #content .ast-container .so-offer-top-heading .skip_link a {
-  font-size: 24px;
-  color: #e0ae3f;
-  font-weight: 500;
-  margin-bottom: 22px;
-  padding: 20px 0;
+@media (max-width: 767px) {
+  body.woocommerce-checkout #content .ast-container .so-offer-top-heading a,
+  body.woocommerce-checkout #content .ast-container .so-offer-top-heading .text {
+    font-size: 18px;
+    padding-bottom: 0;
+    margin: 0;
+  }
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-top-heading a span {
+  display: block;
+  text-align: center;
+  height: 32px;
+  overflow: hidden;
+  font-size: 46px;
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+}
+
+@media screen and (max-width: 768px) {
+  body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] {
+    border: none !important;
+  }
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-headline {
+  display: none;
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] #wpgis-gallery {
+  display: none;
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper {
+  width: 25%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper {
+    width: 100% !important;
+  }
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper .so_product_image {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper .so_product_image {
+    width: 100% !important;
+    margin-right: 0 !important;
+  }
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .image-wrapper .so_product_image .woocommerce-product-gallery__trigger {
+  display: none;
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-container {
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-container {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-container .woocommerce-product-details__short-description p {
+  margin-bottom: 10px;
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-btn-container {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-btn-container {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-btn-container .so_accept {
+  width: 80%;
+  font-size: 1rem;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+  background-repeat: no-repeat;
+  border-radius: 0;
+}
+
+body.woocommerce-checkout #content .ast-container .so-offer-content.so-inline div[id^="so-entry-content"] .so-offer .so-offer-btn-container .so_skip {
+  margin: 0;
 }
 
 footer {

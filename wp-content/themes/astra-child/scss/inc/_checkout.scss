@@ -2,6 +2,7 @@ body {
     &.woocommerce-checkout {
         #content {
             .ast-container {
+                max-width: 1180px;
                 form {
                     &.woocommerce-checkout {
                         #tgpc_enable_checkout_gift_wrapper_field {
@@ -22,24 +23,103 @@ body {
                 }
                 .so-offer-top-heading{
                     display: flex;
-                    align-items: center;
                     justify-content: space-between;
-                    .text {
+                    align-items: center;
+                    @media(max-width:767px){
+                        flex-direction: column;
+                        margin-bottom: 22px;
+                    }
+                    a,
+                    .text{
                         font-size: 24px;
                         color: #e0ae3f;
                         font-weight: 500;
                         margin-bottom: 22px;
                         padding: 20px 0;
-                    }
-                    .skip_link{
-                        a{
-                            font-size: 24px;
-                            color: #e0ae3f;
-                            font-weight: 500;
-                            margin-bottom: 22px;
-                            padding: 20px 0;
+                        @media(max-width:767px) {
+                            font-size: 18px;
+                            padding-bottom: 0;
+                            margin: 0;
                         }
-                    }                
+                    }
+                    a{
+                        span{
+                            display: block;
+                            text-align: center;
+                            height: 32px;
+                            overflow: hidden;
+                            font-size: 46px;
+                        }
+                    }
+                }
+                .so-offer-content.so-inline {
+                    div[id^="so-entry-content"] {
+                        background: #f9f9f9;
+                        border: 1px solid #eee;
+                        @media screen and (max-width:768px) {
+                            border: none !important;
+                        }
+                        .so-headline {
+                            display: none;
+                        }
+                        #wpgis-gallery {
+                            display: none;
+                        }
+                        .so-offer {
+                            .image-wrapper {
+                                width: 25%;
+                                text-align: center;
+                                @media (max-width: 768px) {
+                                    width: 100% !important;
+                                }
+                                .so_product_image {
+                                    width: 80%;
+                                    @media (max-width: 768px) {
+                                        width: 100% !important;
+                                        margin-right: 0 !important;
+                                    }
+                                    .woocommerce-product-gallery__trigger {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            .so-offer-container {
+                                width: 60%;
+                                @media (max-width: 768px) {
+                                    width: 100%;
+                                    text-align: left;
+                                }
+                                .woocommerce-product-details__short-description {
+                                    p {
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                            .so-offer-btn-container {
+                                width: 25%;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                @media (max-width: 768px) {
+                                    width: 100%;
+                                    text-align: left;
+                                }
+                                .so_accept {
+                                    width: 80%;
+                                    font-size: 1rem;
+                                    padding: 12px 20px;
+                                    margin-bottom: 10px;
+                                    background-color: transparent;
+                                    background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+                                    background-repeat: no-repeat;
+                                    border-radius: 0;
+                                }
+                                .so_skip {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
