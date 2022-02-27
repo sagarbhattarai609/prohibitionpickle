@@ -116,13 +116,17 @@ function delivery_limitaion_single_product_func()
 	}
 }
 
-function change_translate_text( $translated_text ) {
-    if ( 'Shipping' === $translated_text ) {
-            $translated_text = 'Delivery';
-    }
-	if ( 'Free Shipping' === $translated_text ) {
-		$translated_text = 'Free Delivery';
-	}
-	return $translated_text;
+
+
+
+add_filter( 'woocommerce_shipping_package_name', 'custom_shipping_package_name' );
+function custom_shipping_package_name( $name ) {
+    return 'Delivery';
 }
-add_filter( 'gettext', 'change_translate_text', 20 );
+
+add_filter('gettext','change_shipping_text');
+add_filter('ngettext','change_shipping_text');
+function change_shipping_text($text) {
+    $text = str_ireplace('Shipping','Delivery',$text);
+    return $text;
+}
