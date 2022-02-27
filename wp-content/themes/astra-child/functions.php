@@ -115,3 +115,11 @@ function delivery_limitaion_single_product_func()
 		<?php endif; 
 	}
 }
+
+function change_translate_text( $translated_text ) {
+    if ( 'Shipping' === $translated_text ) {
+            $translated_text = 'Delivery';
+    }
+        return $translated_text;
+}
+add_filter( 'gettext', 'change_translate_text', 20 );
