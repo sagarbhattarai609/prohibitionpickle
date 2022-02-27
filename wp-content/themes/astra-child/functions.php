@@ -13,6 +13,10 @@
  */
 define( 'CHILD_THEME_ASTRA_CHILD_VERSION', '1.0.0' );
 
+
+require_once ('modules/index.php');
+
+
 /**
  * Enqueue styles
  */
