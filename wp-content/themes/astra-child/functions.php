@@ -139,9 +139,7 @@ function change_shipping_text($text) {
 function product_note_above_short_desc_func(){
 
 	global $product;
-	$size = array_shift( wc_get_product_terms( $product->id, 'pa_product-note', array( 'fields' => 'names' ) ) );
-	print_r($size);
-	
-    echo 'TACOSs!';
+	$size = array_shift( wc_get_product_terms( $product->id, 'pa_product-note', array( 'fields' => 'names' ) ) );	
+    echo $size;
 }
 add_action( 'woocommerce_single_product_summary', 'product_note_above_short_desc_func', 15 );
