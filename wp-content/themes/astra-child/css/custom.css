@@ -8,6 +8,11 @@ body.page-template #content .ast-container {
   }
 }
 
+body.page-template #content button {
+  background-color: transparent;
+  background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png");
+}
+
 header.site-header .site-navigation .main-header-menu li a.menu-link {
   font-family: Inter;
   font-style: normal;
