@@ -130,3 +130,13 @@ function change_shipping_text($text) {
     $text = str_ireplace('Shipping','Delivery',$text);
     return $text;
 }
+
+/**
+ * 
+ * Product Note above Product short description
+ * 
+ * */ 
+function product_note_above_short_desc_func(){
+    echo 'TACOS!';
+}
+add_action( 'woocommerce_single_product_summary', 'product_note_above_short_desc_func', 15 );
