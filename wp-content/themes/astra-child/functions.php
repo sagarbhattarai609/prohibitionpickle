@@ -137,7 +137,7 @@ function change_shipping_text($text) {
  * 
  * */ 
 function product_note_above_short_desc_func(){
-	$product = wc_get_product( get_the_id() );
+	$product = wc_get_product( get_the_ID() );
 	$productAttr = $product->get_attributes('pa_product-note');
 	print_r($productAttr);
 	
