@@ -9,7 +9,7 @@ body.page-template #content .ast-container {
 }
 
 body a.button,
-body button {
+body button:not(.slick-arrow) {
   background-color: transparent !important;
   background-image: url("https://5268cf43cf.nxcli.net/wp-content/uploads/2022/01/button-bg.png") !important;
 }
