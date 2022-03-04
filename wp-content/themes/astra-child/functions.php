@@ -137,9 +137,12 @@ function change_shipping_text($text) {
  * 
  * */ 
 function product_note_above_short_desc_func(){
-	$product = wc_get_product( get_the_ID() );
-	$productAttr = $product->get_attributes('pa_product-note');
-	print_r($productAttr);
+
+	$productAttrs = get_the_terms( get_the_ID(), 'pa_product-note');
+	foreach ( $productAttrs as $productAttr ) {
+		$data =  $productAttrs->name;
+	}
+	print_r($data);
 	
     echo 'TACOS!';
 }
