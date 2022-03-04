@@ -138,12 +138,10 @@ function change_shipping_text($text) {
  * */ 
 function product_note_above_short_desc_func(){
 
-	$productAttrs = get_the_terms( get_the_ID(), 'pa_product-note');
-	foreach ( $productAttrs as $productAttr ) {
-		$data =  $productAttrs->name;
-	}
-	print_r($data);
+	global $product;
+	$size = array_shift( wc_get_product_terms( $product->id, 'pa_product-note', array( 'fields' => 'names' ) ) );
+	print_r($size);
 	
-    echo 'TACOS!';
+    echo 'TACOSs!';
 }
 add_action( 'woocommerce_single_product_summary', 'product_note_above_short_desc_func', 15 );
