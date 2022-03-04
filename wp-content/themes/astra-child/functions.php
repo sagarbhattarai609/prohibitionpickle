@@ -101,7 +101,7 @@ function show_delivery_limitation_func (){
  * Show delivery limitaion in the single product page 
  * 
  * */ 
-add_action('woocommerce_before_add_to_cart_form', 'delivery_limitaion_single_product_func',10);
+add_action('woocommerce_after_add_to_cart_button', 'delivery_limitaion_single_product_func',10);
 
 function delivery_limitaion_single_product_func()
 {
