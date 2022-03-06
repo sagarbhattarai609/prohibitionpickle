@@ -45,7 +45,7 @@ add_action( 'admin_enqueue_scripts', 'admin_enqueue_style_script_func' );
  function admin_enqueue_style_script_func() {
 	wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() . '/admin/css/admin-style.css' );
 
-    wp_enqueue_script( 'my_custom_script', get_stylesheet_directory_uri().'/admin/js/admin--script.js', array('jquery'), '1.0' );
+    wp_enqueue_script( 'my_custom_script', get_stylesheet_directory_uri().'/admin/js/admin-script.js', array('jquery'), '1.0' );
 }
 
 
