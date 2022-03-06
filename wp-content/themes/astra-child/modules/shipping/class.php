@@ -3,10 +3,10 @@
     class PickleShipping {
 
 
-        // public function woocommerce_custom_shipping_zones_func($zone)
-        // {
-
-        // }
+        public function save_shipping_setting_func(){
+            print_r($_POST);
+            exit;
+        }
 
 
     }

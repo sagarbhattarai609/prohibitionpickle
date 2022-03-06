@@ -1,6 +1,20 @@
 jQuery(document).ready(function ($) {
+
+    console.log('var',site_var)
+
     $('#minimum_amt_free_shipping_charge , #shipping_charge , #minimum_order_limit').on('change', function () {
-        console.log('changes')
         $('.wc-shipping-zone-method-save').removeAttr('disabled')
     })
+    $('.wc-shipping-zone-method-save').click(function(){
+        $.ajax({
+            type: 'POST',
+            url: site_var.ajaxurl,
+            data: {
+                action: 'save_shipping_setting',
+            },
+            success: function (res) {
+                console.log(res)
+            }
+        });
+    });
 })
