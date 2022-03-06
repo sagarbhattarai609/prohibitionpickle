@@ -25,7 +25,7 @@ $unit = array_shift( wc_get_product_terms( $product->id, 'pa_unit-measurement', 
 ?>
 
 <?php if ( $price_html = $product->get_price_html() ) : ?>
-	<span class="price"><?php echo $price_html; ?></span>
+	<span class="price" style="display:inline-block;"><?php echo $price_html; ?></span>
 	<?php if(isset($unit) && !empty($unit)):?>
 		<span class="product-unit-measurement">/ Unit: <?php echo $unit;?></span>
 	<?php endif; ?>
