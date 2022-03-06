@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
             type: 'POST',
             url: site_var.ajaxurl,
             data: {
-                action: 'save_shipping_setting',
+                action: 'change_in_shipping_setting',
             },
             success: function (res) {
                 console.log(res)

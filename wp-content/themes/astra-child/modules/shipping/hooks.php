@@ -12,7 +12,6 @@ add_action('woocommerce_shipping_zone_after_methods_table', 'woocommerce_custom_
  * To run ajax when shipping setting is saved
  * 
  * */ 
-add_action( 'wp_ajax_nopriv_save_shipping_setting', 'PickleShipping::save_shipping_setting_func' );
-add_action( 'wp_ajax_save_shipping_setting', 'PickleShipping::save_shipping_setting_func' );
+add_action( 'wp_ajax_change_in_shipping_setting', 'PickleDelivery::change_in_shipping_setting_func' );
 
 
