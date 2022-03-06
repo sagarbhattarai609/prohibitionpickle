@@ -159,9 +159,8 @@ function product_unit_measurement_func()
 {
 	global $product;
 	$unit = array_shift( wc_get_product_terms( $product->id, 'pa_unit-measurement', array( 'fields' => 'names' ) ) );
-	print_r($unit);	
 	if(isset($unit) && !empty($unit)){
-		echo 'Unit: '.$size;
+		echo '<div class="product-unit-measurement">Unit: '.$unit.'</div>';
 	}	
 		
 }
