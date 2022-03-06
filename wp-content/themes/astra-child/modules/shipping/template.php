@@ -42,7 +42,7 @@
                 <input type="hidden" name="zone_id" id="zone_id" value="<?php echo $zone->get_id(); ?>">
             </div>
             <style>
-                .wc-shipping-zone-settings tbody tr:nth-child(3) {
+                h2+.wc-shipping-zone-settings tbody tr:nth-child(3) {
                     display: none;
                 }
             </style>
