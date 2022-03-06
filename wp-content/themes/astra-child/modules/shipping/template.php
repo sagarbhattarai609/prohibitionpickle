@@ -6,33 +6,35 @@
                     <tbody>
                         <tr valign="top" class="">
                             <th scope="row" class="titledesc">
-                                <label for="zone_delivery_time">
-                                    <?php esc_html_e( 'Zone delivery time', 'tvw' ); ?>
-                                    <?php echo wc_help_tip( __( 'This is default delivery time (days) for this shipping zone. Can be changed for each product', 'tvw' ) ); // @codingStandardsIgnoreLine ?>
+                                <label for="minimum_order_limit">
+                                    <?php esc_html_e( 'Zone Minimum order', 'woocommerce' ); ?>
+                                    <?php echo wc_help_tip( __( 'This is minimum order amount for this shipping zone.', 'woocommerce' ) ); ?>
                                 </label>
                             </th>
                             <td class="forminp">
-                                <input type="number" data-attribute="zone_delivery_time" name="zone_delivery_time" id="zone_delivery_time" value="<?php echo $shipping->get_zone_option($zone->get_id(), 'zone_delivery_time'); ?>" placeholder="<?php esc_attr_e( 'Zone delivery time in Days', 'tvw' ); ?>" step="1" min="0">
+                                <input type="number" name="zone_minimum_amt" id="minimum_order_limit" />
                             </td>
                         </tr>
                         <tr valign="top" class="">
                             <th scope="row" class="titledesc">
-                                <label for="zone_delivery_rate">
-                                    
+                                <label for="shipping_charge">
+                                    <?php esc_html_e( 'Delivery Charge', 'woocommerce' ); ?>
+                                    <?php echo wc_help_tip( __( 'This is delivery amount for this shipping zone.', 'woocommerce' ) ); ?>
                                 </label>
                             </th>
                             <td class="forminp">
-                                <input type="number" data-attribute="zone_delivery_rate" name="zone_delivery_rate" id="zone_delivery_rate" value="<?php echo $shipping->get_zone_option($zone->get_id(), 'zone_delivery_rate'); ?>" placeholder="0" min="0">
+                                <input type="number" name="zone_delivery_amt" id ="shipping_charge"/>
                             </td>
                         </tr>
                         <tr valign="top" class="">
                             <th scope="row" class="titledesc">
-                                <label for="zone_additional_email">
-                                    <?php esc_html_e( 'Send email to Foreign fulfillment company?', 'tvw' ); ?>
+                                <label for="minimum_amt_free_shipping_charge">
+                                    <?php esc_html_e( 'Minimum Amount For Free Shipping', 'woocommerce' ); ?>
+                                    <?php echo wc_help_tip( __( 'This is minimum order amount for free shipping for this shipping zone.', 'woocommerce' ) ); ?>
                                 </label>
                             </th>
                             <td class="forminp">
-                                <input type="checkbox" name="zone_additional_email" id="zone_additional_email" value="1" <?php checked('true', $shipping->get_zone_option($zone->get_id(), 'zone_additional_email')); ?>>
+                                <input type="number" name="zone_delivery_amt" id="minimum_amt_free_shipping_charge" />
                             </td>
                         </tr>
                     </tbody>
