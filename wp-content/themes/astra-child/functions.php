@@ -161,6 +161,15 @@ function product_unit_measurement_func()
 	$unit = array_shift( wc_get_product_terms( $product->id, 'pa_unit-measurement', array( 'fields' => 'names' ) ) );
 	if(isset($unit) && !empty($unit)){
 		echo '<div class="product-unit-measurement">Unit: '.$unit.'</div>';
+	}				
+}
+
+add_action('woocommerce_after_shop_loop_item', 'product_unit_measurement_shop_pagefunc',10);
+
+function  product_unit_measurement_shop_pagefunc(){
+	global $product;
+	$unit = array_shift( wc_get_product_terms( $product->id, 'pa_unit-measurement', array( 'fields' => 'names' ) ) );
+	if(isset($unit) && !empty($unit)){
+		echo '<div class="product-unit-measurement">Unit: '.$unit.'</div>';
 	}	
-		
 }
