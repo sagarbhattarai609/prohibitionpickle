@@ -13,6 +13,10 @@ jQuery(document).ready(function ($) {
             url: site_var.ajaxurl,
             data: {
                 action: 'change_in_shipping_setting',
+                'minimum_amt':$('#minimum_order_limit').val(),
+                'shipping_charge':$('#shipping_charge').val(),
+                'free_shipping_charge':$('#minimum_amt_free_shipping_charge').val(),
+                'zone_id':$('#zone_id').val()
             },
             success: function (res) {
                 console.log(res)

@@ -20,11 +20,9 @@
         public function change_in_shipping_setting_func(){
             $posted_data = $_POST;
 
-            print_r($posted_data);
-            exit;
-
-
-            $this->settings['zone_'.$zone_id][$key] = $value;
+            $this->settings['zone_'.$posted_data['zone_id']]['minimum_amt'] = $posted_data['minimum_amt'];
+            $this->settings['zone_'.$posted_data['zone_id']]['shipping_charge'] = $posted_data['shipping_charge'];
+            $this->settings['zone_'.$posted_data['zone_id']]['free_shipping_charge'] = $posted_data['free_shipping_charge'];
             $this->save_options();            
         }
 
