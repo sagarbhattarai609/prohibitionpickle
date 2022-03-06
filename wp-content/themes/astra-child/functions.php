@@ -164,6 +164,11 @@ function product_unit_measurement_func()
 	}				
 }
 
+/**
+ * 
+ * Show Unit measurement in shop page
+ *
+ * */ 
 add_action('woocommerce_after_shop_loop_item', 'product_unit_measurement_shop_pagefunc',10);
 
 function  product_unit_measurement_shop_pagefunc(){
