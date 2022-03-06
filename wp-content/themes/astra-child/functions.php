@@ -158,7 +158,8 @@ add_action('woocommerce_before_add_to_cart_button', 'product_unit_measurement_fu
 function product_unit_measurement_func()
 {
 	global $product;
-	$unit = array_shift( wc_get_product_terms( $product->id, 'pa_unit-measurement', array( 'fields' => 'names' ) ) );	
+	$unit = array_shift( wc_get_product_terms( $product->id, 'pa_unit-measurement', array( 'fields' => 'names' ) ) );
+	print_r($unit);	
 	if(isset($unit) && !empty($unit)){
 		echo 'Unit: '.$size;
 	}	
