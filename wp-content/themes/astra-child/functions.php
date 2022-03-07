@@ -163,3 +163,16 @@ function product_unit_measurement_func()
 		echo '<div class="product-unit-measurement">Unit: '.$unit.'</div>';
 	}				
 }
+
+
+
+/**
+ * Force WooCommerce terms and conditions link to open in a new page when clicked on the checkout page
+ *
+ * @author   Golden Oak Web Design <info@goldenoakwebdesign.com>
+ * @license  https://www.gnu.org/licenses/gpl-2.0.html GPLv2+
+ */
+function golden_oak_web_design_woocommerce_checkout_terms_and_conditions() {
+	remove_action( 'woocommerce_checkout_terms_and_conditions', 'wc_terms_and_conditions_page_content', 30 );
+  }
+  add_action( 'wp', 'golden_oak_web_design_woocommerce_checkout_terms_and_conditions' );
